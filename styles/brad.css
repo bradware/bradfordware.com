@@ -1,0 +1,162 @@
+.bradTitle {
+  padding-left: 35px;
+  width: 100%;
+  float: left;
+  display: inline-flex;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flex;
+}
+
+.bradTitleText {
+  padding-top: 75px;
+  font-weight: 100;
+  font-size: 4.0em;
+  width: 60%;
+}
+
+.bradTitleImageBlock {
+  margin-left: 5%;
+  display: inline-block;
+  display: -webkit-inline-block;
+  display: -ms-inline-block;
+  width: 240px;
+
+}
+
+.bradTitleImg {
+  width: 225px;
+  height: 225px;
+
+  -webkit-box-shadow: 0px 0px 10px #c0c0c0;
+  -moz-box-shadow: 0px 0px 10px #c0c0c0;
+  -ms-box-shadow: 0px 0px 10px #c0c0c0;
+  -o-box-shadow: 0px 0px 10px #c0c0c0;
+  box-shadow: 0px 0px 10px #c0c0c0;
+}
+
+.iconDiv {
+  padding-top: 8px;
+  margin-left: 25%;
+  width: 120px;
+  float: left;
+}
+
+.iconImage {
+  margin-top: 0px;
+  width: 25px;
+  height: 25px;
+  margin-left: 8px;
+}
+
+/* Because it's a different shape */
+.gitHubImage {
+  width: 30px;
+  height: 30px;
+  margin-left: 5px;
+
+}
+
+
+/* This class is the parent of the side by side divs */
+.bradContent {
+  padding-left: 2%;
+  width: 100%;
+  padding-bottom: 30px;
+}
+
+.contentSection {
+  display: inline-flex;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flex;
+  width: 100%;
+}
+
+.contentWriting {
+  width: 60%;
+}
+
+.contentWriting h2, .bradContent h2 {
+  font-weight: 100;
+}
+
+.contentWriting h3 {
+  font-weight: 100;
+  font-size: 1.5em;
+}
+
+.contentWriting p {
+  font-weight: 200;
+}
+
+.contentImage {
+  margin-left: 5%;
+}
+
+.footer {
+  width: 300px;
+  position: relative;
+  left: 50%;
+  margin-left: -150px;
+  z-index: 1;
+  padding-bottom: 15px;
+}
+
+.footer h2 {
+  font-weight: 100;
+}
+
+
+/* All of these are the images used in the various files */
+
+.gtLogo {
+  /* Size of the image */
+  width: 280px;
+  height: 110px;
+}
+
+.redfinLogo {
+  /* Size of the image */
+  margin-top: 15px;
+  width: 300px;
+  height: 70px;
+}
+
+.salesforceLogo {
+  /* Size of the image */
+  margin-top: 15px;
+  width: 280px;
+  height: 100px;
+}
+
+.appleLogo {
+  /* Size of the image */
+  margin-top: 15px;
+  width: 125px;
+  height: 125px;
+}
+
+.d3Logo {
+  /* Size of the image */
+  margin-top: 10px;
+  width: 280px;
+  height: 85px;
+}
+
+.rpmLogo {
+  /* Size of the image */
+  width: 125px;
+  height: 125px;
+}
+
+.riskLogo {
+  /* Size of the image */
+  margin-top: -20px;
+  width: 250px;
+  height: 125px;
+
+  -webkit-box-shadow: 0px 0px 10px #c0c0c0;
+  -moz-box-shadow: 0px 0px 10px #c0c0c0;
+  -ms-box-shadow: 0px 0px 10px #c0c0c0;
+  -o-box-shadow: 0px 0px 10px #c0c0c0;
+  box-shadow: 0px 0px 10px #c0c0c0;
+}
