@@ -93,10 +93,10 @@
 }
 
 .footer {
-  width: 300px;
+  width: 400px;
   position: relative;
   left: 50%;
-  margin-left: -150px;
+  margin-left: -200px;
   z-index: 1;
   padding-bottom: 15px;
 }
