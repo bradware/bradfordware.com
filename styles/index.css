@@ -70,7 +70,7 @@
 
 .indexIconDiv {
   width: 120px;
-  margin-left: 29.5%; /* 29.5 is the magic number */
+  margin-left: 135px; /* 29.5 is the magic number or 135px */
   float: left;
 }
 
@@ -94,5 +94,5 @@
   font-weight: 100;
   width: 250px;
   margin-top: 5px;
-  margin-left: 17%; /* 17 is the magic number */
+  margin-left: 75px; /* 17 is the magic number */
 }
