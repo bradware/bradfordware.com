@@ -74,7 +74,7 @@ body {
 
 .indexIconDiv {
   width: 120px;
-  margin-left: 155px; /* 29.5 is the magic number or 135px */
+  margin-left: 35%; /* 35 is the magic number or 155px */
   float: left;
 }
 
@@ -98,5 +98,5 @@ body {
   font-weight: 200;
   width: 300px;
   margin-top: 5px;
-  margin-left: 80px; /* 17 is the magic number */
+  margin-left: 18%; /* 18 is the magic number  or 80px */
 }
