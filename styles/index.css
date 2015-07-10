@@ -31,7 +31,7 @@ body {
 
 .summary p {
   padding-top: 30px;
-  font-weight: 200;
+  font-weight: 300;
 }
 
 .summary h2 {
@@ -95,7 +95,7 @@ body {
 
 .copyright {
   float: left;
-  font-weight: 100;
+  font-weight: 200;
   width: 300px;
   margin-top: 5px;
   margin-left: 80px; /* 17 is the magic number */
