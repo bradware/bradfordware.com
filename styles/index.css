@@ -92,7 +92,7 @@
 .copyright {
   float: left;
   font-weight: 100;
-  width: 250px;
+  width: 300px;
   margin-top: 5px;
-  margin-left: 75px; /* 17 is the magic number */
+  margin-left: 77px; /* 17 is the magic number */
 }
