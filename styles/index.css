@@ -1,6 +1,5 @@
 body {
   font-family: 'Raleway', sans-serif;
-  font-weight: 100;
 }
 
 .indexTitle {
@@ -42,7 +41,7 @@ body {
 
 /* The quote */
 .summary h3 {
-  font-weight: 100;
+  font-weight: 200;
 }
 
 #bradJacket {
@@ -75,7 +74,7 @@ body {
 
 .indexIconDiv {
   width: 120px;
-  margin-left: 135px; /* 29.5 is the magic number or 135px */
+  margin-left: 155px; /* 29.5 is the magic number or 135px */
   float: left;
 }
 
@@ -99,5 +98,5 @@ body {
   font-weight: 100;
   width: 300px;
   margin-top: 5px;
-  margin-left: 77px; /* 17 is the magic number */
+  margin-left: 80px; /* 17 is the magic number */
 }
