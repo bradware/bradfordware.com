@@ -1,5 +1,5 @@
 body {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Raleway', 'Roboto', sans-serif;
 }
 
 .bradTitle {
@@ -100,7 +100,7 @@ body {
   width: 500px;
   position: relative;
   left: 50%;
-  margin-left: -185px;
+  margin-left: -195px;
   z-index: 1;
   padding-bottom: 15px;
 }
