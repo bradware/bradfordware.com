@@ -1,3 +1,7 @@
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
 .bradTitle {
   padding-left: 35px;
   width: 100%;
@@ -76,16 +80,16 @@
 }
 
 .contentWriting h2, .bradContent h2 {
-  font-weight: 100;
+  font-weight: 200;
 }
 
 .contentWriting h3 {
-  font-weight: 100;
+  font-weight: 200;
   font-size: 1.5em;
 }
 
 .contentWriting p {
-  font-weight: 200;
+  font-weight: 300;
 }
 
 .contentImage {
@@ -102,7 +106,7 @@
 }
 
 .footer h2 {
-  font-weight: 100;
+  font-weight: 200;
 }
 
 
