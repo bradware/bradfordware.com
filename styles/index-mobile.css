@@ -8,31 +8,9 @@
     font-size: 20px;
   }
 
-  .indexFooter h2 {
-    font-size: 20px;
-    margin-left: 12%;
-  }
-
   #bradJacket {
-    margin-left: 48%;
-  }
-
-  .indexIconImage {
-    width: 20px;
-    height: 20px;
-    margin-left: 3px;
-  }
-
-  /* Because it's a different shape */
-  .indexGitHubImage {
-    width: 23px;
-    height: 23px;
-    margin-left: 3px;
-  }
-
-  .copyright {
-    font-size: 12px;
-    margin-left: 18%;
+  	margin-top: 10%;
+    margin-left: 38%;
   }
 
 }
