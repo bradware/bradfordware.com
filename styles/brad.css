@@ -3,7 +3,8 @@ body {
 }
 
 .bradTitle {
-  padding-left: 35px;
+  padding-left: 3%;
+  padding-bottom: 10px;
   width: 100%;
   float: left;
   display: inline-flex;
@@ -63,7 +64,8 @@ body {
 
 /* This class is the parent of the side by side divs */
 .bradContent {
-  padding-left: 2%;
+  padding-left: 3%;
+  padding-right: 3%;
   width: 100%;
   padding-bottom: 30px;
 }
@@ -163,4 +165,44 @@ body {
   -ms-box-shadow: 0px 0px 10px #c0c0c0;
   -o-box-shadow: 0px 0px 10px #c0c0c0;
   box-shadow: 0px 0px 10px #c0c0c0;
+}
+
+/* For mobile friendly */
+@media screen and (max-width: 600px) {
+  .bradTitleImageBlock {
+    visibility: hidden;
+    display: none;
+  }
+
+  .bradTitle {
+    margin-top: -100px;
+  }
+
+  .bradContent h2 {
+    font-size: 22px;
+  }
+
+  .bradContent h3 {
+    font-size: 18px;
+  }
+
+  .bradContent p {
+    font-size: 12px;
+  }
+
+  .bradTitleText {
+    font-size: 2em;
+  }
+
+  .footer h2 {
+    font-size: 20px;
+    margin-left: 13%;
+  }
+
+  .gtLogo {
+    width: 250px;
+    height: 90px;
+    margin-left: 5%;
+  }
+
 }

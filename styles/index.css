@@ -5,7 +5,7 @@ body {
 .indexTitle {
   padding-top: 15px;
   padding-bottom: 20px;
-  padding-left: 2%;
+  padding-left: 3%;
   font-size: 4em;
   font-weight: 100;
   font-color: #000000;
@@ -13,8 +13,8 @@ body {
 }
 
 .summary {
-  padding-left: 2%;
-  padding-right: 2%;
+  padding-left: 3%;
+  padding-right: 3%;
   font-size: 16px;
   padding-bottom: 65px;
   width: 100%;
@@ -89,4 +89,36 @@ body {
   width: 300px;
   margin-top: 5px;
   margin-left: 18%; /* 18 is the magic number  or 80px */
+}
+
+/* For mobile friendly */
+@media screen and (max-width: 600px) {
+
+  .indexTitle {
+    font-size: 3em;
+  }
+  .quote {
+    font-size: 20px;
+  }
+
+  .indexFooter h2 {
+    font-size: 20px;
+    margin-left: 12%;
+  }
+
+  #bradJacket {
+    margin-left: 50%;
+  }
+
+  .indexIconImage {
+    width: 22px;
+    height: 22px;
+    margin-left: 4px;
+  }
+
+  .copyright {
+    font-size: 12px;
+    margin-left: 17%;
+  }
+
 }
