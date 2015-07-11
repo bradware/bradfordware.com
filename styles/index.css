@@ -90,35 +90,3 @@ body {
   margin-top: 5px;
   margin-left: 18%; /* 18 is the magic number  or 80px */
 }
-
-/* For mobile friendly */
-@media screen and (max-width: 600px) {
-
-  .indexTitle {
-    font-size: 3em;
-  }
-  .quote {
-    font-size: 20px;
-  }
-
-  .indexFooter h2 {
-    font-size: 20px;
-    margin-left: 12%;
-  }
-
-  #bradJacket {
-    margin-left: 50%;
-  }
-
-  .indexIconImage {
-    width: 22px;
-    height: 22px;
-    margin-left: 4px;
-  }
-
-  .copyright {
-    font-size: 12px;
-    margin-left: 17%;
-  }
-
-}
