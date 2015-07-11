@@ -1,0 +1,41 @@
+.indexFooter {
+  width: 600px;
+  position: relative;
+  bottom: 0px;
+  left: 50%;
+  margin-left: -300px;
+  margin-bottom: 15px;
+}
+
+.indexFooter h2 {
+  font-weight: 200;
+}
+
+.indexIconDiv {
+  width: 120px;
+  margin-left: 32.5%; /* 32.5 is the magic number */
+  float: left;
+}
+
+.indexIconImage {
+  margin-top: 0px;
+  width: 25px;
+  height: 25px;
+  margin-left: 8px;
+}
+
+/* Because it's a different shape */
+.indexGitHubImage {
+  width: 30px;
+  height: 30px;
+  margin-left: 5px;
+
+}
+
+.copyright {
+  float: left;
+  font-weight: 200;
+  width: 300px;
+  margin-top: 5px;
+  margin-left: 20%; /* 18 is the magic number  or 80px */
+}
