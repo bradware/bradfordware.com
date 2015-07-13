@@ -1,4 +1,6 @@
 /* For mobile friendly */
+/* Different than footer-mobile because the brad pages have larger width due to 
+      experience and project images. Therefore need to adjust footer margins differently. */
 @media screen and (max-width: 600px) {
 
   .indexIconDiv {
