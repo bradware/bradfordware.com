@@ -10,19 +10,19 @@
   }
 
   .contentWriting {
-    width: 150%;
+    width: 100%;
   }
 
   .bradContent h2 {
-    font-size: 22px;
+    font-size: 20px;
   }
 
   .bradContent h3 {
-    font-size: 18px;
+    font-size: 16px;
   }
 
   .bradContent p {
-    font-size: 12px;
+    font-size: 11px;
   }
 
   .bradTitleText {
@@ -36,50 +36,54 @@
   }
 
   .gtLogo {
-    width: 250px;
-    height: 90px;
+    width: 150px;
+    height: 54px;
+    margin-left: -100px;
   }
 
   .redfinLogo {
     /* Size of the image */
     margin-top: 30px;
-    width: 200px;
-    height: 52px;
+    width: 125px;
+    height: 33px;
   }
 
   .salesforceLogo {
     /* Size of the image */
     margin-top: 30px;
-    width: 200px;
-    height: 71px;
+    width: 125px;
+    height: 45px;
   }
 
   .appleLogo {
     /* Size of the image */
-    margin-top: 30px;
-    width: 75px;
-    height: 75px;
+    margin-top: 20px;
+    margin-left: -10px;
+    width: 50px;
+    height: 50px;
   }
 
   .d3Logo {
     /* Size of the image */
-    margin-top: 15px;
-    width: 200px;
-    height: 60px;
+    margin-left: -100px;
+    margin-top: 5px;
+    width: 150px;
+    height: 45px;
   }
 
   .rpmLogo {
     /* Size of the image */
-    margin-top: 25px;
-    width: 75px;
-    height: 75px;
+    margin-left: -20px;
+    width: 50px;
+    height: 50px;
   }
 
   .riskLogo {
     /* Size of the image */
-    margin-top: 25px;
-    width: 120px;
-    height: 60px;
+    margin-top: 10px;
+    margin-left: -25px;
+    width: 80px;
+    height: 40px;
 
     -webkit-box-shadow: 0px 0px 10px #c0c0c0;
     -moz-box-shadow: 0px 0px 10px #c0c0c0;
