@@ -5,13 +5,13 @@
 
   .indexIconDiv {
     width: 100px;
-    margin-left: 31.5%; /* 31.5 is the magic number */
+    margin-left: 32.5%; /* 32.5 is the magic number */
     float: left;
   }
 
   .indexFooter h2 {
     font-size: 16px;
-    margin-left: 17%;
+    margin-left: 18%;
   }
 
   .indexIconImage {
@@ -28,6 +28,6 @@
 
   .copyright {
     font-size: 10px;
-    margin-left: 24%;
+    margin-left: 25%;
   }
 }

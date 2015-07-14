@@ -1,5 +1,17 @@
 /* For mobile friendly */
 @media screen and (max-width: 600px) {
+  html, body {
+    overflow-x: hidden;
+    padding-right: 1%;
+  }
+
+  .bradTitle {
+    padding-left: 3%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    width: 100%;
+  }
+
   .bradTitleImageBlock {
     visibility: hidden;
     display: none;
@@ -18,7 +30,7 @@
   }
 
   .bradContent h3 {
-    font-size: 16px;
+    font-size: 15px;
   }
 
   .bradContent p {
@@ -36,28 +48,31 @@
   }
 
   .gtLogo {
-    width: 150px;
-    height: 54px;
+    width: 125px;
+    height: 45px;
     margin-left: -100px;
+    margin-top: 5px;
   }
 
   .redfinLogo {
     /* Size of the image */
-    margin-top: 30px;
-    width: 125px;
-    height: 33px;
+    margin-top: 25px;
+    margin-left: -15px;
+    width: 80px;
+    height: 23px;
   }
 
   .salesforceLogo {
     /* Size of the image */
+    margin-left: -8px;
     margin-top: 30px;
-    width: 125px;
-    height: 45px;
+    width: 75px;
+    height: 27px;
   }
 
   .appleLogo {
     /* Size of the image */
-    margin-top: 20px;
+    margin-top: 15px;
     margin-left: -10px;
     width: 50px;
     height: 50px;
@@ -82,8 +97,8 @@
     /* Size of the image */
     margin-top: 5px;
     margin-left: -25px;
-    width: 80px;
-    height: 40px;
+    width: 60px;
+    height: 30px;
 
     -webkit-box-shadow: 0px 0px 10px #c0c0c0;
     -moz-box-shadow: 0px 0px 10px #c0c0c0;
