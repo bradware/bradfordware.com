@@ -30,7 +30,11 @@
   }
 
   .bradContent h3 {
-    font-size: 15px;
+    font-size: 14px;
+  }
+
+  .mobileName {
+    font-size: 16px;
   }
 
   .bradContent p {
@@ -56,15 +60,15 @@
 
   .redfinLogo {
     /* Size of the image */
-    margin-top: 25px;
-    margin-left: -15px;
+    margin-top: 20px;
+    margin-left: -16px;
     width: 80px;
     height: 23px;
   }
 
   .salesforceLogo {
     /* Size of the image */
-    margin-left: -8px;
+    margin-left: -10px;
     margin-top: 30px;
     width: 75px;
     height: 27px;
@@ -74,8 +78,8 @@
     /* Size of the image */
     margin-top: 15px;
     margin-left: -10px;
-    width: 50px;
-    height: 50px;
+    width: 45px;
+    height: 45px;
   }
 
   .d3Logo {
