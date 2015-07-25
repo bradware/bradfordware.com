@@ -98,6 +98,10 @@ body {
   margin-left: 5%;
 }
 
+.contactContent {
+  font-size: 17px;
+}
+
 .footer {
   width: 500px;
   position: relative;
