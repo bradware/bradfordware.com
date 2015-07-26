@@ -7,8 +7,19 @@
   .indexTitle {
     font-size: 3em;
   }
+
   .quote {
     font-size: 20px;
+  }
+
+  .summary p {
+    font-size: 14px;
+  }
+
+  .quote {
+    font-weight: 200;
+    padding-bottom: 30px;
+    font-size: 18px !important;
   }
 
   #bradJacket {
