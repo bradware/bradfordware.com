@@ -41,6 +41,10 @@
     font-size: 11px;
   }
 
+  .mobileContactContent {
+    font-size: 13px !important;
+  }
+
   .bradTitleText {
     font-size: 3.0em;
     width: 100%;
