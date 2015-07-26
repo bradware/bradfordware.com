@@ -38,7 +38,7 @@
   }
 
   .bradContent p {
-    font-size: 11px;
+    font-size: 12px;
   }
 
   .mobileBiggerPFont {
@@ -88,7 +88,7 @@
 
   .d3Logo {
     /* Size of the image */
-    margin-left: -70px;
+    margin-left: -50px;
     margin-top: 15px;
     width: 115px;
     height: 30px;
