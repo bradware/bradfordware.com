@@ -30,18 +30,22 @@
 
   .mobile134 p {
     width: 134.5%; /* 135 is too big for Safari */
+    word-wrap: break-word;
   }
 
   .mobile130 p {
     width: 130%;
+    word-wrap: break-word;
   }
 
   .mobile120 p {
     width: 120%;
+    word-wrap: break-word;
   }
 
   .mobile115 p {
     width: 115%;
+    word-wrap: break-word;
   }
 
   .bradContent h2 {
