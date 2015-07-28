@@ -26,15 +26,15 @@
   }
 
   /* For getting the mobile content to 
-      stretch the width of the screen */
-
-  .mobile125 p {
-    width: 125%; /* 130 is too big for Safari */
+      stretch the width of the screen
+  */
+  .mobile130 p {
+    width: 129.5%;
     word-wrap: break-word;
   }
 
-  .mobile130 p {
-    width: 129.5%;
+  .mobile125 p {
+    width: 125%; /* 130 is too big for Safari */
     word-wrap: break-word;
   }
 
