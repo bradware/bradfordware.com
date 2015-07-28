@@ -28,8 +28,8 @@
   /* For getting the mobile content to 
       stretch the width of the screen */
 
-  .mobile135 p {
-    width: 135%;
+  .mobile133 p {
+    width: 133%;
   }
 
   .mobile130 p {
@@ -84,14 +84,14 @@
   .redfinLogo {
     /* Size of the image */
     margin-top: 18px;
-    margin-left: -15px;
+    margin-left: -17px;
     width: 82px;
     height: 22px;
   }
 
   .salesforceLogo {
     /* Size of the image */
-    margin-left: -10px;
+    margin-left: -12px;
     margin-top: 22px;
     width: 75px;
     height: 27px;
@@ -99,7 +99,7 @@
 
   .appleLogo {
     /* Size of the image */
-    margin-top: 10px;
+    margin-top: 7px;
     margin-left: -10px;
     width: 45px;
     height: 45px;
