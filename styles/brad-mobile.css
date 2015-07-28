@@ -22,7 +22,26 @@
   }
 
   .contentWriting {
-    width: 100%;
+    width: 100%; /* baseline for every div to stretch */
+  }
+
+  /* For getting the mobile content to 
+      stretch the width of the screen */
+
+  .mobile135 p {
+    width: 135%;
+  }
+
+  .mobile130 p {
+    width: 130%;
+  }
+
+  .mobile120 p {
+    width: 120%;
+  }
+
+  .mobile115 p {
+    width: 115%;
   }
 
   .bradContent h2 {
@@ -65,14 +84,14 @@
   .redfinLogo {
     /* Size of the image */
     margin-top: 18px;
-    margin-left: -18px;
+    margin-left: -15px;
     width: 82px;
     height: 22px;
   }
 
   .salesforceLogo {
     /* Size of the image */
-    margin-left: -14px;
+    margin-left: -10px;
     margin-top: 22px;
     width: 75px;
     height: 27px;
@@ -97,16 +116,16 @@
   .rpmLogo {
     /* Size of the image */
     margin-left: -20px;
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
   }
 
   .riskLogo {
     /* Size of the image */
     margin-top: 5px;
     margin-left: -25px;
-    width: 60px;
-    height: 35px;
+    width: 55px;
+    height: 32px;
 
     -webkit-box-shadow: 0px 0px 10px #c0c0c0;
     -moz-box-shadow: 0px 0px 10px #c0c0c0;
