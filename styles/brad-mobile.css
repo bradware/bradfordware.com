@@ -29,7 +29,7 @@
       stretch the width of the screen */
 
   .mobile133 p {
-    width: 133.5%; /* 135 is too big for Safari */
+    width: 133%; /* 135 is too big for Safari */
     word-wrap: break-word;
   }
 
