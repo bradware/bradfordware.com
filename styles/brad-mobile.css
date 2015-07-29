@@ -30,7 +30,7 @@
       stretch the width of the screen
   */
   .mobile125 p {
-    width: 125%; /* 130 is too big for Safari */
+    width: 125%;
   }
 
   .mobile115 p {
