@@ -31,12 +31,10 @@
   */
   .mobile125 p {
     width: 125%; /* 130 is too big for Safari */
-    word-wrap: break-word;
   }
 
   .mobile115 p {
     width: 115%;
-    word-wrap: break-word;
   }
 
   .bradContent h2 {
@@ -102,7 +100,7 @@
 
   .d3Logo {
     /* Size of the image */
-    margin-left: -50px;
+    margin-left: -60px;
     margin-top: 15px;
     width: 115px;
     height: 30px;
