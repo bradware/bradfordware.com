@@ -30,11 +30,15 @@
       stretch the width of the screen
   */
   .mobile125 p {
-    width: 124.5%;
+    width: 124%;
   }
 
   .mobile115 p {
     width: 115%;
+  }
+
+  .mobile102 p {
+    width: 102%;
   }
 
   .bradContent h2 {
