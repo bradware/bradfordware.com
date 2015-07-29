@@ -30,15 +30,15 @@
       stretch the width of the screen
   */
   .mobile124 p {
-    width: 124%;
+    width: 124%; /* Can't be 125 b/c of horizontal view on iPhone5 */
   }
 
   .mobile115 p {
-    width: 115%;
+    width: 115%; /* standard widener for content div */
   }
 
   .mobile102 p {
-    width: 102%;
+    width: 102%; /* To lengthen the machine-learning section a tad */
   }
 
   .bradContent h2 {
