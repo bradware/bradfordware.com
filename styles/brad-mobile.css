@@ -5,7 +5,7 @@
     padding-right: 1%;
   }
 
-  .bradTitle {
+  .bradTitle { /* Basic padding on screen */
     padding-left: 3%;
     padding-right: 3%;
     padding-top: 5%;
@@ -20,7 +20,7 @@
     width: 100%;
   }
 
-  .bradTitleImageBlock {
+  .bradTitleImageBlock { /* Not showing image of me on mobile brad pages */
     visibility: hidden;
     display: none;
   }
@@ -52,16 +52,16 @@
     font-size: 14px;
   }
 
-  .mobileName { /* Used to enlarge the name of Companies on experience page */
-    font-size: 16px;
-  }
-
-  .bradContent p {
+  .bradContent p { /* Shrink text for mobile screen */
     font-size: 12px;
   }
 
-  .mobileBiggerPFont {
+  .mobileBiggerPFont { /* For the Contact section links under About me page */
     font-size: 13px !important;
+  }
+
+  .mobileName { /* Used to enlarge the name of Companies on experience page */
+    font-size: 16px;
   }
 
   .gtLogo {
