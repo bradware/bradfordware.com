@@ -37,5 +37,6 @@
   font-weight: 200;
   width: 300px;
   margin-top: 5px;
+  margin-bottom: 5px;
   margin-left: 20%; /* 20 is the magic number  or 80px */
 }
