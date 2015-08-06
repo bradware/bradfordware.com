@@ -20,10 +20,11 @@
     height: 18px;
   }
 
-  /* Because it's a different shape. Inherits margins from footer.css */
+  /* Because it's a different shape */
   .githubImage {
     width: 21px;
     height: 21px;
+    margin-left: 5px;
   }
 
   .copyright {
