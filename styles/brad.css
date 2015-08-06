@@ -87,11 +87,12 @@ body {
 
 .contentWriting h3 {
   font-weight: 200;
-  font-size: 1.5em;
+  font-size: 22px;
 }
 
 .contentWriting p {
   font-weight: 300;
+  font-size: 15px;
 }
 
 .contentImage {
@@ -99,7 +100,7 @@ body {
 }
 
 .contactContent {
-  font-size: 17px;
+  font-size: 18px;
 }
 
 .footer {
