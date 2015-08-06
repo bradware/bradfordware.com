@@ -39,29 +39,6 @@ body {
   box-shadow: 0px 0px 10px #c0c0c0;
 }
 
-.iconDiv {
-  padding-top: 8px;
-  margin-left: 25%;
-  width: 120px;
-  float: left;
-}
-
-.iconImage {
-  margin-top: 0px;
-  width: 25px;
-  height: 25px;
-  margin-left: 8px;
-}
-
-/* Because it's a different shape */
-.gitHubImage {
-  width: 30px;
-  height: 30px;
-  margin-left: 5px;
-
-}
-
-
 /* This class is the parent of the side by side divs */
 .bradContent {
   padding-left: 3%;
@@ -102,14 +79,8 @@ body {
 .contactContent {
   font-size: 18px !important;
 }
- 
-.footer {
-  width: 500px;
-  position: relative;
-  left: 50%;
-  margin-left: -200px;
-}
- 
+
+
 /* All of these are the images used in the various files */
 
 .gtLogo {
