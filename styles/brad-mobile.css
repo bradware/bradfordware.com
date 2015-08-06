@@ -10,16 +10,19 @@
     padding-right: 3%;
     padding-top: 5%;
     padding-bottom: 5%;
+
+    margin-top: -100px;
+    width: 100%;
+  }
+
+  .bradTitleText {
+    font-size: 3.0em;
     width: 100%;
   }
 
   .bradTitleImageBlock {
     visibility: hidden;
     display: none;
-  }
-
-  .bradTitle {
-    margin-top: -100px;
   }
 
   .contentWriting {
@@ -41,15 +44,15 @@
     width: 102%; /* To lengthen the machine-learning section a tad */
   }
 
-  .bradContent h2 {
+  .bradContent h2 { /* Shrink text for mobile screen */
     font-size: 20px;
   }
 
-  .bradContent h3 {
+  .bradContent h3 { /* Shrink text for mobile screen */
     font-size: 14px;
   }
 
-  .mobileName {
+  .mobileName { /* Used to enlarge the name of Companies on experience page */
     font-size: 16px;
   }
 
@@ -59,16 +62,6 @@
 
   .mobileBiggerPFont {
     font-size: 13px !important;
-  }
-
-  .bradTitleText {
-    font-size: 3.0em;
-    width: 100%;
-  }
-
-  .footer h2 {
-    font-size: 20px;
-    margin-left: 13%;
   }
 
   .gtLogo {
