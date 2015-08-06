@@ -15,9 +15,10 @@
     margin-left: 42%; /* 42 is the magic number. Float left is inherited */
   }
 
-  .iconImage { /* Inherits margins from footer.css */
+  .iconImage { /* Changed size and also margins */
     width: 18px;
     height: 18px;
+    margin-left: 8px;
   }
 
   /* Because it's a different shape */

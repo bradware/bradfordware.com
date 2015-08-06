@@ -11,8 +11,8 @@
 }
 
 .iconDiv {
-  width: 110px;
-  margin-left: 35.5%; /* 35.5 is the magic number */
+  width: 130px;
+  margin-left: 33%; /* 35.5 is the magic number */
   float: left;
 }
 
@@ -20,14 +20,14 @@
   margin-top: 0px;
   width: 25px;
   height: 25px;
-  margin-left: 8px;
+  margin-left: 15px;
 }
 
 /* Because it's a different shape */
 .githubImage {
   width: 30px;
   height: 30px;
-  margin-left: 3px;
+  margin-left: 10px;
 }
 
 .copyright {

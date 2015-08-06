@@ -17,9 +17,10 @@
     margin-left: 34%; /* 34 is the magic number */
   }
 
-  .iconImage { /* Inherits margins from footer.css */
+  .iconImage { /* Changed size and also margins */
     width: 18px;
     height: 18px;
+    margin-left: 8px;
   }
 
   /* Because it's a different shape */
