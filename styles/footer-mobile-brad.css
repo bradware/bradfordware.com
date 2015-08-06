@@ -3,32 +3,32 @@
       experience and project images. Therefore need to adjust footer margins differently. */
 @media screen and (max-width: 600px) {
 
-  .footer {
+  .footerWrapper {
     width: 500px;
     position: relative;
     left: 50%;
     margin-left: -200px;
   }
 
-  .indexIconDiv {
+  .iconDiv {
     width: 100px;
     margin-left: 32.5%; /* 32.5 is the magic number */
     float: left;
   }
 
-  .indexFooter h2 {
+  .footer h2 {
     font-size: 16px;
     margin-left: 18%;
     font-weight: 200;
   }
 
-  .indexIconImage {
+  .iconImage {
     width: 20px;
     height: 20px;
   }
 
   /* Because it's a different shape */
-  .indexGitHubImage {
+  .githubImage {
     width: 23px;
     height: 23px;
     margin-left: 3px;
