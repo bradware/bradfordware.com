@@ -3,7 +3,7 @@
       experience and project images. Therefore need to adjust footer margins differently. */
 @media screen and (max-width: 600px) {
 
-  .indexFooter {
+  .footer {
     width: 500px;
     position: relative;
     left: 50%;
