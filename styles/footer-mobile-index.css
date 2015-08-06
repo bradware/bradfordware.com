@@ -31,7 +31,7 @@
   .copyright {
     width: 200px; /* Smaller width b/c of smaller font-size, which affects margins */
     font-size: 10px;
-    margin-left: 33%;
+    margin-left: 34%; /* 34 is the magic number */
   }
 
 }
