@@ -4,38 +4,34 @@
 @media screen and (max-width: 600px) {
 
   .footerWrapper {
-    width: 500px;
-    position: relative;
-    left: 50%;
-    margin-left: -200px;
-  }
-
-  .iconDiv {
-    width: 100px;
-    margin-left: 32.5%; /* 32.5 is the magic number */
-    float: left;
+    margin-left: -242.5px; /* Bc the screen size is smaller, left shift has to be adjusted */
   }
 
   .footer h2 {
-    font-size: 16px;
+    font-size: 16px; /* Smaller font-size, which also tweaks the margins */
     margin-left: 18%;
-    font-weight: 200;
+  }
+  
+  .iconDiv {
+    width: 100px; /* Smaller width which also tweaks the margins */
+    margin-left: 34%; /* 34 is the magic number */
   }
 
-  .iconImage {
-    width: 20px;
-    height: 20px;
+  .iconImage { /* Inherits margins from footer.css */
+    width: 18px;
+    height: 18px;
   }
 
   /* Because it's a different shape */
   .githubImage {
-    width: 23px;
-    height: 23px;
-    margin-left: 3px;
+    width: 21px;
+    height: 21px;
   }
 
   .copyright {
+    width: 200px; /* Smaller width b/c of smaller font-size, which affects margins */
     font-size: 10px;
     margin-left: 25%;
   }
+
 }

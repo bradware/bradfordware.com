@@ -1,31 +1,35 @@
-/* For mobile friendly */
+/* For mobile friendly - Alot of styles are inherited from footer.css */
 @media screen and (max-width: 600px) {
 
-  .iconDiv {
-    width: 100px;
-    margin-left: 40%; /* 40 is the magic number */
-    float: left;
+  .footerWrapper {
+    margin-left: -290px; /* Bc the screen size is smaller, left shift has to be adjusted */
   }
 
   .footer h2 {
-    font-size: 16px;
+    font-size: 16px; /* Smaller font-size, which also tweaks the margins */
     margin-left: 26%;
   }
-
-  .iconImage {
-    width: 20px;
-    height: 20px;
+  
+  .iconDiv {
+    width: 100px; /* Smaller font-size, so smaller div size */
+    margin-left: 42%; /* 42 is the magic number. Float left is inherited */
   }
 
-  /* Because it's a different shape */
+  .iconImage { /* Inherits margins from footer.css */
+    width: 18px;
+    height: 18px;
+  }
+
+  /* Because it's a different shape. Inherits margins from footer.css */
   .githubImage {
-    width: 23px;
-    height: 23px;
-    margin-left: 3px;
+    width: 21px;
+    height: 21px;
   }
 
   .copyright {
+    width: 200px; /* Smaller width b/c of smaller font-size, which affects margins */
     font-size: 10px;
-    margin-left: 34%;
+    margin-left: 33%;
   }
+
 }
