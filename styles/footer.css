@@ -1,21 +1,21 @@
-.indexFooter {
+.footer {
   width: 600px;
   position: relative;
   left: 50%;
   margin-left: -300px;
 }
 
-.indexFooter h2 {
+.footer h2 {
   font-weight: 200;
 }
 
-.indexIconDiv {
+.iconDiv {
   width: 120px;
   margin-left: 32.5%; /* 32.5 is the magic number */
   float: left;
 }
 
-.indexIconImage {
+.iconImage {
   margin-top: 0px;
   width: 25px;
   height: 25px;
@@ -23,7 +23,7 @@
 }
 
 /* Because it's a different shape */
-.indexGitHubImage {
+.githubImage {
   width: 30px;
   height: 30px;
   margin-left: 5px;

@@ -1,24 +1,24 @@
 /* For mobile friendly */
 @media screen and (max-width: 600px) {
 
-  .indexIconDiv {
+  .iconDiv {
     width: 100px;
     margin-left: 40%; /* 40 is the magic number */
     float: left;
   }
 
-  .indexFooter h2 {
+  .footer h2 {
     font-size: 16px;
     margin-left: 26%;
   }
 
-  .indexIconImage {
+  .iconImage {
     width: 20px;
     height: 20px;
   }
 
   /* Because it's a different shape */
-  .indexGitHubImage {
+  .githubImage {
     width: 23px;
     height: 23px;
     margin-left: 3px;
