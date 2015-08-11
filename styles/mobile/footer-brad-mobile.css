@@ -33,7 +33,7 @@
   .copyright {
     width: 175px; /* Smaller width b/c of smaller font-size, which affects margins */
     font-size: 10px;
-    margin-left: 27.5%; /* 27.5 is the magic number */
+    margin-left: 27%; /* 27.5 is the magic number */
   }
 
 }
