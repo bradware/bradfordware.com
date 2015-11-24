@@ -1,5 +1,5 @@
 /* For mobile friendly */
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 600px) {
   .indexWrapper {
     left: 0%;
     margin-left: 0px;
