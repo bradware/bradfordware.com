@@ -8,13 +8,13 @@
   }
 
   .footer h2 {
-    font-size: 16px; /* Smaller font-size, which also tweaks the margins */
-    margin-left: 18%;
+    font-size: 17px; /* Smaller font-size, which also tweaks the margins */
+    margin-left: 21%;
   }
   
   .iconDiv {
     width: 100px; /* Smaller width which also tweaks the margins */
-    margin-left: 34%; /* 34 is the magic number */
+    margin-left: 37.5%; /* 37.5 is the magic number */
   }
 
   .iconImage { /* Changed size and also margins */
@@ -33,7 +33,7 @@
   .copyright {
     width: 175px; /* Smaller width b/c of smaller font-size, which affects margins */
     font-size: 10px;
-    margin-left: 27.5%; /* 27.5 is the magic number */
+    margin-left: 29%; /* 29 is the magic number */
   }
 
 }

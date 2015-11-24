@@ -1,27 +1,25 @@
 /* For mobile friendly */
-@media screen and (max-width: 600px) {
-  html, body {
-    overflow-x: hidden;
+@media screen and (max-width: 640px) {
+  .indexWrapper {
+    left: 0%;
+    margin-left: 0px;
   }
 
   .indexTitle {
-    padding-top: 0px;
+    padding-bottom: 10px;
+    padding-left: 10%;
+    padding-right: 10%;
     font-size: 3em;
   }
-
-  .summary p {
-    font-size: 13px;
+  
+  .imageWrapper {
+    left: 0%;
+    margin-left: 0px;
   }
-
-  .quote {
-    font-weight: 200;
-    padding-bottom: 20px;
-    font-size: 18px !important;
-  }
-
+  
   #bradJacket {
   	margin-top: 10%;
-    margin-left: 42.5%; /* debatable */
+    margin-left: 40%; /* debatable */
   }
 
 }

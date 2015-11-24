@@ -1,8 +1,8 @@
 .footerWrapper {
-  width: 550px;
+  width: 500px;
   position: relative;
   left: 50%;
-  margin-left: -275px;
+  margin-left: -240px;
 }
 
 .footer h2 {
@@ -12,7 +12,7 @@
 
 .iconDiv {
   width: 130px;
-  margin-left: 33%; /* 33 is the magic number */
+  margin-left: 31%; /* 31 is the magic number */
   float: left;
 }
 
@@ -36,5 +36,5 @@
   width: 240px;
   margin-top: 5px;
   margin-bottom: 5px;
-  margin-left: 23.5%; /* 23.5 is the magic number */
+  margin-left: 21%; /* 21 is the magic number */
 }
