@@ -1,20 +1,23 @@
 .footerWrapper {
-  width: 530px;
+  width: 600px;
   position: relative;
   left: 50%;
-  margin-left: -250px;
+  margin-left: -305px;
 }
 
 .footer h3 {
   margin-top: 7px;
   font-weight: 200;
   margin-bottom: 7px;
-  word-spacing: 55px;
+}
+
+.footer h3 a {
+  margin-left: 55px;
 }
 
 .iconDiv {
   width: 160px;
-  margin-left: 29.5%; /* 29.5 is the magic number */
+  margin-left: 35.25%; /* 35.25 is the magic number */
   float: left;
 }
 
@@ -38,5 +41,5 @@
   width: 240px;
   margin-top: 5px;
   margin-bottom: 10px;
-  margin-left: 24%; /* 24 is the magic number */
+  margin-left: 30.5%; /* 30.5 is the magic number */
 }

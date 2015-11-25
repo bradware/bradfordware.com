@@ -3,37 +3,40 @@
 
   .footerWrapper {
     width: 400px;
-    margin-left: -200px; /* Bc the screen size is smaller, left shift has to be adjusted */
+    margin-left: -210px; /* Bc the screen size is smaller, left shift has to be adjusted */
   }
 
   .footer h3 {
-    font-size: 16px; /* Smaller font-size, which also tweaks the margins */
+    font-size: 18px; /* Smaller font-size, which also tweaks the margins */
     margin-left: 13%;
-    word-spacing: 15px;
+  }
+
+  .footer h3 a {
+    margin-left: 10px;
   }
 
   .iconDiv {
-    width: 80px; /* Smaller font-size, so smaller div size */
-    margin-left: 35.5%; /* 38 is the magic number. Float left is inherited */
+    width: 90px; /* Smaller font-size, so smaller div size */
+    margin-left: 38.5%; /* 38.5 is the magic number. Float left is inherited */
   }
 
   .iconImage { /* Changed size and also margins */
-    width: 15px;
-    height: 15px;
+    width: 18px;
+    height: 18px;
     margin-left: 8px;
   }
 
   /* Because it's a different shape */
   .githubImage {
-    width: 18px;
-    height: 18px;
+    width: 21px;
+    height: 21px;
     margin-left: 5px;
   }
 
   .copyright {
     width: 175px; /* Smaller width b/c of smaller font-size, which affects margins */
     font-size: 10px;
-    margin-left: 25%; /* 27 is the magic number */
+    margin-left: 27.5%; /* 27.5 is the magic number */
   }
 
 }
