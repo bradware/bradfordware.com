@@ -1,33 +1,35 @@
 .footerWrapper {
-  width: 500px;
+  width: 530px;
   position: relative;
   left: 50%;
-  margin-left: -240px;
+  margin-left: -250px;
 }
 
-.footer h2 {
+.footer h3 {
+  margin-top: 7px;
   font-weight: 200;
   margin-bottom: 7px;
+  word-spacing: 55px;
 }
 
 .iconDiv {
-  width: 130px;
-  margin-left: 31%; /* 31 is the magic number */
+  width: 160px;
+  margin-left: 29.5%; /* 29.5 is the magic number */
   float: left;
 }
 
 .iconImage {
   margin-top: 0px;
-  width: 25px;
-  height: 25px;
-  margin-left: 15px;
+  width: 20px;
+  height: 20px;
+  margin-left: 30px;
 }
 
 /* Because it's a different shape */
 .githubImage {
-  width: 30px;
-  height: 30px;
-  margin-left: 10px;
+  width: 25px;
+  height: 25px;
+  margin-left: 25px;
 }
 
 .copyright {
@@ -36,5 +38,5 @@
   width: 240px;
   margin-top: 5px;
   margin-bottom: 5px;
-  margin-left: 21%; /* 21 is the magic number */
+  margin-left: 24%; /* 24 is the magic number */
 }
