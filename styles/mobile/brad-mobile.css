@@ -1,15 +1,14 @@
 /* For mobile friendly version of brad pages */
 @media screen and (max-width: 600px) {
+  
   html, body {
-    overflow-x: hidden;
-    padding-right: 1%;
+    padding-right: 1%; /* To have content off the edge */
   }
 
   .bradTitle { /* Basic padding on screen */
     padding-left: 3%;
     padding-right: 3%;
-    padding-top: 5%;
-    padding-bottom: 5%;
+    padding-top: 7%; /* Don't need an elaborate top padding, bottom padding stays the same */
 
     margin-top: -100px;
     width: 100%;

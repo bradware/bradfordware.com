@@ -1,7 +1,6 @@
 html, body {
   font-family: 'Raleway', 'Roboto', sans-serif;
   overflow-x: hidden;
-  padding-top: 40px;
 }
 
 .indexWrapper {
@@ -12,6 +11,8 @@ html, body {
 
 .indexTitle {
   padding-bottom: 25px;
+  padding-top: 40px;
+
   font-size: 4em;
   font-weight: 100;
   font-color: #000000;
