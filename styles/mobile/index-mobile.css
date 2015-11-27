@@ -1,13 +1,13 @@
 /* For mobile friendly */
 @media screen and (max-width: 600px) {
-  
+
   .indexWrapper {
     left: 0%;
     margin-left: 0px;
   }
 
   .indexTitle {
-    padding-top: 3%;
+    padding-top: 2%;
     padding-bottom: 3%;
     padding-left: 10%;
     padding-right: 10%;
