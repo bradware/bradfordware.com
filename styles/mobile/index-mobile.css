@@ -7,8 +7,8 @@
   }
 
   .indexTitle {
-    padding-top: 3%;
-    padding-bottom: 3%;
+    padding-top: 2%;
+    padding-bottom: 2%;
     padding-left: 10%;
     padding-right: 10%;
     font-size: 3em;
@@ -22,7 +22,7 @@
   #bradJacket {
   	margin-top: 10%;
     margin-left: 42%; /* debatable */
-    margin-bottom: 40px;
+    margin-bottom: 30px;
   }
 
 }
