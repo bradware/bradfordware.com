@@ -7,7 +7,3 @@ RewriteCond %{REQUEST_FILENAME}\.php -f
 RewriteRule ^(.*)$ $1.php
 RewriteCond %{REQUEST_FILENAME}\.html -f
 RewriteRule ^(.*)$ $1.html
-
-# force non-www domain
-RewriteCond %{HTTP_HOST} ^www\.bradware\.com$ [NC]
-RewriteRule (.*) http://bradware.com/$1 [R=301,L]
