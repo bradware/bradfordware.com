@@ -1,6 +1,6 @@
 /* For mobile friendly */
 /* not 600px b/c of bradford townsend ware text width */
-@media screen and (max-width: 650px) { 
+@media screen and (max-width: 600px) { 
 
   .indexWrapper {
     left: 0%;
