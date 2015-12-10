@@ -62,18 +62,19 @@ html, body {
   width: 60%;
 }
 
-.contentWriting h2, .bradContent h2 {
+.bradContent h2 {
   font-weight: 200;
+  font-size: 32px;
 }
 
 .contentWriting h3 {
   font-weight: 200;
-  font-size: 22px;
+  font-size: 24px;
 }
 
 .contentWriting p {
   font-weight: 300;
-  font-size: 15px;
+  font-size: 16px;
 }
 
 .contentImage {
