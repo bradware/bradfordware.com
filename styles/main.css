@@ -100,7 +100,6 @@ html, body {
 
 .riskLogo {
   /* Size of the image */
-  margin-top: -20px;
-  width: 250px;
-  height: 125px;
+  width: 200px;
+  height: 100px;
 }
