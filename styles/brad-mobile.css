@@ -29,19 +29,19 @@
   }
 
   .content h2 { /* Shrink text for mobile screen */
-    font-size: 30px;
+    font-size: 32px;
   }
 
   .content h3 { /* Shrink text for mobile screen */
-    font-size: 20px;
+    font-size: 22px;
   }
 
   .content p { /* Shrink text for mobile screen */
-    font-size: 14px;
+    font-size: 16px;
   }
 
   #contactContent { /* For the Contact section links under About page */
-    font-size: 16px !important;
+    font-size: 18px !important;
   }
 
   .bradImg { 
@@ -50,57 +50,58 @@
   }
 
   .gtLogo {
-    width: 125px;
-    height: 45px;
+    width: 135px;
+    height: 48px;
     margin-left: -100px;
-    margin-top: 5px;
+    margin-top: 10px;
   }
 
   .redfinLogo {
     /* Size of the image */
-    margin-top: 10px;
-    margin-left: -5px;
-    width: 40px;
-    height: 40px;
+    margin-top: 20px;
+    margin-left: -25px;
+    width: 50px;
+    height: 50px;
   }
 
   .salesforceLogo {
     /* Size of the image */
-    margin-left: -10px;
-    margin-top: 22px;
-    width: 82px;
-    height: 30px;
+    margin-left: -20px;
+    margin-top: 25px;
+    width: 85px;
+    height: 35px;
   }
 
   .appleLogo {
     /* Size of the image */
-    margin-top: 10px;
-    margin-left: -5px;
-    width: 40px;
-    height: 40px;
+    margin-left: -25px;
+    margin-top: 20px;
+    width: 50px;
+    height: 50px;
   }
 
   .d3Logo {
     /* Size of the image */
     margin-left: -65px;
     margin-top: 15px;
-    width: 120px;
-    height: 32px;
+    width: 125px;
+    height: 33px;
   }
 
   .rpmLogo {
     /* Size of the image */
+    margin-top: 15px;
     margin-left: -20px;
-    width: 45px;
-    height: 45px;
+    width: 50px;
+    height: 50px;
   }
 
   .riskLogo {
     /* Size of the image */
-    margin-top: 5px;
-    margin-left: -25px;
-    width: 60px;
-    height: 35px;
+    margin-top: 15px;
+    margin-left: -35px;
+    width: 70px;
+    height: 42px;
 
     -webkit-box-shadow: 0px 0px 10px #c0c0c0;
     -moz-box-shadow: 0px 0px 10px #c0c0c0;
