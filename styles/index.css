@@ -18,6 +18,18 @@ html, body {
 }
 
 /* Footer is wrapped closer on home page */
-.footer {
-	padding-top: 5%;
+footer {
+   padding-top: 5%;
+}
+
+/* For mobile friendly version of main pages */
+@media screen and (max-width: 600px) {
+  .footer {
+    padding-top: 10%; /* Same padding on mobile */
+  }
+
+  html, body {
+  	padding-top: 25px; /* Because of fixed nav bar */
+  }
+
 }
