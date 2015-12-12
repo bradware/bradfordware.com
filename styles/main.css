@@ -120,50 +120,50 @@ p {
   }
 
   .gtLogo {
-    width: 180px;
-    height: 65px;
+    width: 185px;
+    height: 67px;
   }
 
   .redfinLogo {
     /* Size of the image */
     margin-top: 0px;
-    width: 75px;
-    height: 75px;
+    width: 80px;
+    height: 80px;
   }
 
   .salesforceLogo {
     /* Size of the image */
     margin-top: 0px;
-    width: 125px;
-    height: 52px;
+    width: 130px;
+    height: 55px;
   }
 
   .appleLogo {
     /* Size of the image */
     margin-top: 0px;
-    width: 75px;
-    height: 75px;
+    width: 80px;
+    height: 80px;
   }
 
   .d3Logo {
     /* Size of the image */
     margin-top: 5px;
-    width: 60px;
-    height: 57px;
+    width: 65px;
+    height: 62px;
   }
 
   .rpmLogo {
     /* Size of the image */
     margin-top: 5px;
-    width: 70px;
-    height: 70px;
+    width: 80px;
+    height: 80px;
   }
 
   .riskLogo {
     /* Size of the image */
     margin-top: 5px;
-    width: 110px;
-    height: 70px;
+    width: 120px;
+    height: 76px;
   }
 
 }
