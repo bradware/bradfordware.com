@@ -33,7 +33,6 @@ p {
 /* All of these are the images used in the various files */
 
 .bradImg {
-  margin-top: 0px;
   width: 150px;
   height: 150px;
 
@@ -127,7 +126,6 @@ p {
   }
 
   .gtLogo {
-    margin-top: 5px;
     width: 175px;
     height: 62px;
   }
