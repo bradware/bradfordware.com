@@ -58,15 +58,15 @@
 
   .redfinLogo {
     /* Size of the image */
-    margin-top: 15px;
-    margin-left: -20px;
+    margin-left: -12px;
+    margin-top: 10px;
     width: 50px;
     height: 50px;
   }
 
   .salesforceLogo {
     /* Size of the image */
-    margin-left: -15px;
+    margin-left: -12px;
     margin-top: 25px;
     width: 85px;
     height: 35px;
@@ -74,8 +74,8 @@
 
   .appleLogo {
     /* Size of the image */
-    margin-left: -20px;
-    margin-top: 15px;
+    margin-left: -12px;
+    margin-top: 10px;
     width: 50px;
     height: 50px;
   }
@@ -90,7 +90,7 @@
 
   .rpmLogo {
     /* Size of the image */
-    margin-top: 15px;
+    margin-top: 10px;
     margin-left: -20px;
     width: 50px;
     height: 50px;
@@ -98,7 +98,7 @@
 
   .riskLogo {
     /* Size of the image */
-    margin-top: 15px;
+    margin-top: 12px;
     margin-left: -30px;
     width: 70px;
     height: 42px;
