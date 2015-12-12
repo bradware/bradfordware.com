@@ -66,23 +66,23 @@ html, body {
 
 .redfinLogo {
   /* Size of the image */
-  margin-top: 30px;
-  width: 110px;
-  height: 110px;
+  margin-top: 50px;
+  width: 100px;
+  height: 100px;
 }
 
 .salesforceLogo {
   /* Size of the image */
-  margin-top: 35px;
-  width: 250px;
-  height: 89px;
+  margin-top: 50px;
+  width: 240px;
+  height: 85px;
 }
 
 .appleLogo {
   /* Size of the image */
-  margin-top: 35px;
-  width: 110px;
-  height: 110px;
+  margin-top: 50px;
+  width: 100px;
+  height: 100px;
 }
 
 .d3Logo {
