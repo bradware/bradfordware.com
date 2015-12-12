@@ -59,7 +59,7 @@
   .redfinLogo {
     /* Size of the image */
     margin-top: 20px;
-    margin-left: -25px;
+    margin-left: -20px;
     width: 50px;
     height: 50px;
   }
@@ -74,7 +74,7 @@
 
   .appleLogo {
     /* Size of the image */
-    margin-left: -25px;
+    margin-left: -20px;
     margin-top: 20px;
     width: 50px;
     height: 50px;
@@ -82,10 +82,10 @@
 
   .d3Logo {
     /* Size of the image */
-    margin-left: -65px;
-    margin-top: 15px;
-    width: 125px;
-    height: 33px;
+    margin-left: -5px;
+    margin-top: 5px;
+    width: 45px;
+    height: 43px;
   }
 
   .rpmLogo {
@@ -99,15 +99,9 @@
   .riskLogo {
     /* Size of the image */
     margin-top: 15px;
-    margin-left: -35px;
+    margin-left: -30px;
     width: 70px;
     height: 42px;
-
-    -webkit-box-shadow: 0px 0px 10px #c0c0c0;
-    -moz-box-shadow: 0px 0px 10px #c0c0c0;
-    -ms-box-shadow: 0px 0px 10px #c0c0c0;
-    -o-box-shadow: 0px 0px 10px #c0c0c0;
-    box-shadow: 0px 0px 10px #c0c0c0;
   }
 
 }
