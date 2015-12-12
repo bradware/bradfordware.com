@@ -3,39 +3,29 @@
   font-weight: 200;
 }
 
+.logo {
+  width: 40px;
+  height: 25px;
+}
+
+/* logo spacing */
+.navbar-brand {
+  padding-top: 12px;
+  padding-right: 50px;
+}
+
 .navbar {
-  border-radius: 0% !important;
-  background: rgba(0, 0, 0, 0);
+  background: rgba(255, 255, 255, 1);
   font-weight: 300;
   font-size: 1.4em;
-  border: none;
-  box-shadow: none;
-  padding-top: 3%;
 }
-.navbar .glyphicon {
-  padding-right: 10px;
-  padding-top: 0px;
-  display: inline;
-}
-.navbar {
-  width: 100%;
-}
-.navbar #logo:hover {
-  background-color: #f87217;
-}
-.navbar .btn,
-.navbar navbar-collapse {
+
+/* Removes border around navbar-button on mobile */
+.navbar .btn, .navbar navbar-collapse {
   border: 0;
 }
-.navbar .navbar-collapse {
-  background-color: #ffffff;
-}
-.navbar .navbar-collapse .nav.navbar-nav.navbar-right li a {
-  color: #f2f2f2;
-}
-.navbar .navbar-collapse .nav.navbar-nav.navbar-right li a:hover {
-  font-weight: 400;
-}
+
+/* Padding between navbar menu options */
 .navbar li {
-  padding-right: 20px;
+  padding-right: 25px;
 }

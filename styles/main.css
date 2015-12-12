@@ -1,5 +1,7 @@
 html, body {
   font-family: 'Source Sans Pro', sans-serif;
+  padding-top: 25px; /* Because of fixed nav bar */
+  background-color: #fdfdfd;
 }
 
 /* This class is the parent of the side by side divs */
@@ -31,6 +33,7 @@ p {
 /* All of these are the images used in the various files */
 
 .bradImg {
+  margin-top: 0px;
   width: 150px;
   height: 150px;
 
