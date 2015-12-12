@@ -5,32 +5,12 @@
     padding-right: 1%; /* To have content off the edge */
   }
 
-  .bradTitle { /* Basic padding on screen */
-    padding-left: 3%;
-    padding-right: 3%;
-    padding-top: 7%; /* Don't need an elaborate top padding, bottom padding stays the same */
-
-    margin-top: -100px;
-    width: 100%;
-  }
-
-  .bradTitleText {
-    font-size: 3.0em;
-    width: 100%;
-  }
-
-  .bradTitleImageBlock { /* Not showing image of me on mobile brad pages */
-    visibility: hidden;
-    display: none;
-  }
-
   .contentWriting {
     width: 100%; /* baseline for every div to stretch */
   }
 
   /* 
-      For getting the mobile content to 
-      stretch the width of the screen
+      For getting the mobile content to stretch the width of the screen
   */
   .mobile133 p {
     width: 133%; /* For Salesforce/Pardot b/c it has a wider photo */
@@ -48,24 +28,25 @@
     width: 102%; /* To lengthen the machine-learning section a tad - on Projects.html */
   }
 
-  .bradContent h2 { /* Shrink text for mobile screen */
+  .content h2 { /* Shrink text for mobile screen */
+    font-size: 30px;
+  }
+
+  .content h3 { /* Shrink text for mobile screen */
     font-size: 20px;
   }
 
-  .bradContent h3 { /* Shrink text for mobile screen */
+  .content p { /* Shrink text for mobile screen */
     font-size: 14px;
   }
 
-  .bradContent p { /* Shrink text for mobile screen */
-    font-size: 12px;
+  #contactContent { /* For the Contact section links under About page */
+    font-size: 16px !important;
   }
 
-  .contactContent { /* For the Contact section links under About page */
-    font-size: 14px !important;
-  }
-
-  .mobileName { /* Used to enlarge the name of Companies on experience page */
-    font-size: 15px;
+  .bradImg { 
+    /* Not going to display this image on mobile */
+    display: none;
   }
 
   .gtLogo {

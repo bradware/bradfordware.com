@@ -1,0 +1,41 @@
+.title {
+  font-size: 64px;
+  font-weight: 200;
+}
+
+.navbar {
+  border-radius: 0% !important;
+  background: rgba(0, 0, 0, 0);
+  font-weight: 300;
+  font-size: 1.4em;
+  border: none;
+  box-shadow: none;
+  padding-top: 3%;
+}
+.navbar .glyphicon {
+  padding-right: 10px;
+  padding-top: 0px;
+  display: inline;
+}
+.navbar {
+  width: 100%;
+}
+.navbar #logo:hover {
+  background-color: #f87217;
+}
+.navbar .btn,
+.navbar navbar-collapse {
+  border: 0;
+}
+.navbar .navbar-collapse {
+  background-color: #ffffff;
+}
+.navbar .navbar-collapse .nav.navbar-nav.navbar-right li a {
+  color: #f2f2f2;
+}
+.navbar .navbar-collapse .nav.navbar-nav.navbar-right li a:hover {
+  font-weight: 400;
+}
+.navbar li {
+  padding-right: 20px;
+}

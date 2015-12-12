@@ -1,6 +1,6 @@
-<!DOCTYPE html>
 <html>
 	<head>
+		<!-- Title and Meta shit -->
 		<title>Brad Ware</title>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,37 +12,35 @@
 		<!-- Stylesheets -->
 		<link rel="stylesheet" href="styles/bootstrap/bootstrap.min.css">
 		<link rel="stylesheet" href="styles/bootstrap/bootstrap-theme.min.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 		<link rel="stylesheet" href="styles/index.css">
+		<link rel="stylesheet" href="styles/header.css">
 		<link rel="stylesheet" href="styles/footer.css">
-		<link rel="stylesheet" href="styles/mobile/index-mobile.css">
-		<link rel="stylesheet" href="styles/mobile/footer-mobile.css">
 
 		<!-- Google Font -->
+		<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200,300,300italic,200italic,400italic' rel='stylesheet' type='text/css'>
 		<link href="http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic" rel="stylesheet" type="text/css">
-		<link href="http://fonts.googleapis.com/css?family=Raleway:400,200,100,300" rel="stylesheet" type="text/css">
 
 		<!-- Favicon -->
 		<link rel="icon" type="image/png" href="assets/images/logo/logo_favicon.png">
 
-		<!-- JS to load bootstrap and footer -->
+		<!-- JS to load bootstrap, header, and footer -->
 		<script src="js/jquery-1.11.3.min.js"></script>
 		<script src="js/bootstrap/bootstrap.min.js" async=""></script>
 		<script>
 			$(document).ready(function() {
+				$("header").load("header.html");
 			    $("footer").load("footer.html");
 			});
 		</script>
 	</head>
-	<body>
-		<div class="indexWrapper">
-			<h1 class="indexTitle">bradford townsend ware</h1>
-		</div>
-	    <div class="row"> <!-- creates spacing for the footer -->
-			<div class="imageWrapper col-xs-6 col-md-6">
-				<a href="#"><img id="bradJacket" src="assets/images/bradJacket.png"></a>
-			</div>
+	<body class="container-fluid text-center">
+		<!-- Header Inserted -->
+	    <header class="header"></header>
+    	<div class="row">
+			<a href="#"><img class="indexPhoto" src="assets/images/bradJacket.png"></a>
 		</div>
 		<!-- Footer Inserted -->
-	    <footer class="footerWrapper"></footer>
+	    <footer class="footer"></footer>
 	</body>
 </html>
