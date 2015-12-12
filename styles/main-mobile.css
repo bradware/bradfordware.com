@@ -59,14 +59,14 @@
   .redfinLogo {
     /* Size of the image */
     margin-left: -12px;
-    margin-top: 10px;
+    margin-top: 5px;
     width: 50px;
     height: 50px;
   }
 
   .salesforceLogo {
     /* Size of the image */
-    margin-left: -12px;
+    margin-left: -10px;
     margin-top: 25px;
     width: 85px;
     height: 35px;
@@ -75,7 +75,7 @@
   .appleLogo {
     /* Size of the image */
     margin-left: -12px;
-    margin-top: 10px;
+    margin-top: 5px;
     width: 50px;
     height: 50px;
   }
