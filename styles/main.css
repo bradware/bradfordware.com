@@ -99,6 +99,10 @@ footer {
 /* For mobile friendly version of main pages */
 @media screen and (max-width: 800px) {
 
+  html, body {
+    padding-top: 25px; /* Because of fixed nav bar */
+  }
+
   h2 { /* Shrink text for mobile screen */
     font-size: 32px;
   }
