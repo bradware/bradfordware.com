@@ -41,4 +41,9 @@
     font-size: 62px;
     padding-bottom: 5px;
   }
+
+  /* No padding on mobile b/c it's block */
+  .navbar li {
+    padding-right: 0px;
+  }
 }
