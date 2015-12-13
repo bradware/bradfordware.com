@@ -5,13 +5,12 @@
 }
 
 .logo {
-  width: 41px;
-  height: 25px;
+  width: 35px;
+  height: 21px;
 }
 
 /* logo spacing */
 .navbar-brand {
-  padding-top: 12px;
   padding-right: 50px;
 }
 
