@@ -119,8 +119,8 @@ footer {
     font-size: 18px !important;
   }
 
-  footer {
-    padding-top: 12%;
+  footer { 
+    padding-top: 13%; /* More bottom padding for mobile */
   }
 
   .bradImg { 
