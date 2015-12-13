@@ -16,13 +16,16 @@
 }
 
 .navbar {
-  background: rgba(255, 255, 255, 1);
+  background: rgba(255, 255, 255, 0.95);
   font-weight: 300;
   font-size: 1.4em;
 }
 
 /* Removes border around navbar-button on mobile */
 .navbar .btn, .navbar navbar-collapse {
+  /* Makes button and shadow appear in the middle of navbar margins must add up to 16px */
+  margin-top: 11px;
+  margin-bottom: 5px;
   border: 0;
 }
 

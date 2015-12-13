@@ -24,7 +24,7 @@ footer {
 
 /* For mobile friendly version of main pages */
 @media screen and (max-width: 600px) {
-  .footer {
+  footer {
     padding-top: 10%; /* Same padding on mobile */
   }
 
