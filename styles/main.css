@@ -1,6 +1,6 @@
 html, body {
   font-family: 'Source Sans Pro', sans-serif;
-  padding-top: 25px; /* Because of fixed nav bar */
+  padding-top: 35px; /* Because of fixed nav bar */
   background-color: #fdfdfd;
 }
 
@@ -28,6 +28,10 @@ p {
 
 #contactContent {
   font-size: 18px !important; /* Email and Resume */
+}
+
+footer {
+  padding-top: 10%;
 }
 
 /* All of these are the images used in the various files */
@@ -109,6 +113,10 @@ p {
 
   #contactContent { /* For the Contact section links under About page */
     font-size: 18px !important;
+  }
+
+  footer {
+    padding-top: 12%;
   }
 
   .bradImg { 

@@ -5,7 +5,7 @@
 }
 
 .logo {
-  width: 40px;
+  width: 41px;
   height: 25px;
 }
 
@@ -23,8 +23,8 @@
 
 /* Removes border around navbar-button on mobile */
 .navbar .btn, .navbar navbar-collapse {
-  /* Makes button and shadow appear in the middle of navbar margins must add up to 16px */
-  margin-top: 11px;
+  /* Makes button and shadow appear in the middle of navbar margins must add up to 15px */
+  margin-top: 10px;
   margin-bottom: 5px;
   border: 0;
 }
@@ -32,4 +32,12 @@
 /* Padding between navbar menu options */
 .navbar li {
   padding-right: 25px;
+}
+
+/* For mobile friendly version of main pages */
+@media screen and (max-width: 800px) {
+  .title {
+    font-size: 62px;
+    padding-bottom: 0px;
+  }
 }
