@@ -4,6 +4,16 @@
   padding-bottom: 20px;
 }
 
+.title a {
+  color: rgb(0, 0, 0);
+  text-shadow: 0 1px 0 rgba(255, 255, 255, .25);
+  text-decoration: none;
+}
+
+.title a:hover {
+  color: rgb(119, 119, 119);
+}
+
 .logo {
   width: 35px;
   height: 21px;
