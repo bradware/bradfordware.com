@@ -5,13 +5,13 @@
 }
 
 .title a {
-  color: rgb(0, 0, 0);
+  color: rgb(51, 51, 51);
   text-shadow: 0 1px 0 rgba(255, 255, 255, .25);
   text-decoration: none;
 }
 
 .title a:hover {
-  color: rgb(119, 119, 119);
+  color: rgb(155, 155, 155);
 }
 
 .logo {
@@ -19,15 +19,20 @@
   height: 21px;
 }
 
-/* logo spacing */
+/* logo spacing for menu */
 .navbar-brand {
-  padding-right: 50px;
+  padding-right: 75px;
+}
+
+/* Padding between navbar menu options */
+.navbar li {
+  padding-right: 75px;
 }
 
 .navbar {
   background: rgba(255, 255, 255, 0.975);
   font-weight: 300;
-  font-size: 1.25em;
+  font-size: 1.3em;
 }
 
 /* Removes border around navbar-button on mobile */
@@ -38,13 +43,18 @@
   border: 0;
 }
 
-/* Padding between navbar menu options */
-.navbar li {
-  padding-right: 25px;
+/* Navbar text color */
+.navbar-default .navbar-nav>li>a {
+  color: rgb(51, 51, 51);
+}
+
+/* Change to silver for hover on navbar text */
+.navbar-default .navbar-nav>li>a:hover {
+  color: rgb(155, 155, 155);
 }
 
 /* For mobile friendly version of main pages */
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 790px) { /* 790 was chosen b/c of the navbar font size spacing overflow */
   .title {
     font-size: 62px;
     padding-bottom: 5px;

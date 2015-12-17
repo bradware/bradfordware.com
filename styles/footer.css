@@ -1,5 +1,5 @@
 .iconDiv {
-  padding-bottom: 10px;
+  padding-bottom: 15px;
 }
 
 .icon-size {
@@ -7,16 +7,16 @@
 }
 
 .icon-color {
-  color: rgb(119, 119, 119);
+  color: rgb(51, 51, 51);
 }
 
 .icon-color:hover {
-  color: rgb(0, 0, 0);
+  color: rgb(155, 155, 155);
 }
 
 .copyright {
   font-weight: 300;
   font-size: 14px;
-  color: rgb(0, 0, 0);
+  color: rgb(51, 51, 51);
   padding-bottom: 10px;
 }
