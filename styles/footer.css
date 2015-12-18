@@ -7,11 +7,11 @@
 }
 
 .icon-color {
-  color: rgb(51, 51, 51);
+  color: #333333; /* rgb(51, 51, 51) */
 }
 
 .icon-color:hover {
-  color: rgb(155, 155, 155);
+  color: #9B9B9B; /* rgb(155, 155, 155) */
 }
 
 .copyright {
