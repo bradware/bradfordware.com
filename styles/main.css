@@ -1,7 +1,11 @@
 html, body {
   font-family: 'Source Sans Pro', sans-serif;
   padding-top: 35px; /* Because of fixed nav bar */
-  background-color: #fdfdfd;
+  background-color: #fdfdfd; /* barely off-white */
+}
+
+h2, h3, p {
+  color: #000000; /* Color of all the text body */
 }
 
 /* This class is the parent of the side by side divs */
