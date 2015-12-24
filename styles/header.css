@@ -1,17 +1,7 @@
 .title {
-  font-size: 64px;
-  font-weight: 200;
+  font-size: 60px;
+  font-weight: 300;
   padding-bottom: 20px;
-}
-
-.title a {
-  color: #333333; /* rgb(51, 51, 51) */
-  text-shadow: 0 1px 0 rgba(255, 255, 255, .25); /* Not a big deal if doesn't work in IE */
-  text-decoration: none;
-}
-
-.title a:hover {
-  color: #9B9B9B; /* rgb(155, 155, 155) */
 }
 
 .logo {
@@ -26,8 +16,8 @@
 
 .navbar {
   background: #FFFFFF; /* rgb(255, 255, 255) */
-  font-weight: 300;
-  font-size: 1.3em;
+  font-weight: 400;
+  font-size: 16px;
 
   /* Opacity for IE */
   /* Theoretically for IE 8 & 9 (more valid) */
@@ -53,18 +43,18 @@
 
 /* Navbar text color */
 .navbar-default .navbar-nav>li>a {
-  color: #000000; /* black text */
+  color: #333333; /* rgb(51, 51, 51) */
 }
 
 /* Change to silver for hover on navbar text */
 .navbar-default .navbar-nav>li>a:hover {
-  color: #9B9B9B; /* rgb(155, 155, 155) */
+  color: #0066CC; /* rgb(19, 115, 229) */
 }
 
 /* For mobile friendly version of main pages */
 @media screen and (max-width: 767px) { /* 767 was chosen b/c of bootstrap */
   .title {
-    font-size: 62px;
+    font-size: 56px;
     padding-bottom: 5px;
   }
 

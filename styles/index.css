@@ -1,7 +1,7 @@
 html, body {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   padding-top: 35px; /* Because of fixed nav bar */
-  background-color: #fdfdfd;
+  background-color: #fdfdfd; /* barely off-white */
 }
 
 .indexPhoto {
@@ -19,17 +19,17 @@ html, body {
 
 /* Footer is wrapped closer on home page */
 footer {
-   padding-top: 5%;
+   padding-top: 35px;
 }
 
 /* For mobile friendly version of main pages */
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 767px) {
   html, body {
     padding-top: 20px; /* Because of fixed nav bar */
   }
 
   footer {
-    padding-top: 10%; /* Same padding on mobile for footer for main */
+    padding-top: 25px; /* Same padding on mobile for footer for main */
   }
 
 }
