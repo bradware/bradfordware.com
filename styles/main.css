@@ -126,6 +126,13 @@ footer {
     padding-top: 25px; /* Because of fixed nav bar */
   }
 
+  /* This class is the parent of the side by side divs */
+  .content {
+    padding-top: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+  }
+
   footer { 
     padding-top: 15%; /* More bottom padding for mobile */
   }
