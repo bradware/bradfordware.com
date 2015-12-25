@@ -23,14 +23,14 @@
   /* Theoretically for IE 8 & 9 (more valid) */
   /* ...but not required as filter works too */
   /* should come BEFORE filter */
-  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=97)";
+  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=95)";
 
   /* This works in IE 8 & 9 too */
   /* ... but also 5, 6, 7 */
-  filter: alpha(opacity=97);
+  filter: alpha(opacity=95);
   
   /* Modern Browsers */
-  opacity: 0.97;
+  opacity: 0.95;
 }
 
 /* Removes border around navbar-button on mobile */
@@ -48,7 +48,7 @@
 
 /* Change to silver for hover on navbar text */
 .navbar-default .navbar-nav>li>a:hover {
-  color: #0066CC; /* rgb(19, 115, 229) */
+  color: #0066CC; /* rgb(0, 102, 204) */
 }
 
 /* For small screen on laptop  */

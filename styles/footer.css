@@ -9,7 +9,7 @@
 }
 
 .iconDiv a:hover {
-  color: #0066CC; /* rgb(19, 115, 229) */
+  color: #0066CC; /* rgb(0, 102, 204) */
 }
 
 .icon-padding {
@@ -23,7 +23,7 @@
 }
 
 .copyright a {
-  color: #0066CC; /* rgb(19, 115, 229) */
+  color: #0066CC; /* rgb(0, 102, 204) */
 }
 
 /* For mobile friendly version of main pages */
