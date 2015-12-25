@@ -67,7 +67,7 @@
 /* For mobile friendly version of main pages */
 @media screen and (max-width: 450px) { 
   .title {
-    font-size: 48px;
+    font-size: 50px;
     padding-bottom: 0px;
   }
 
