@@ -117,6 +117,13 @@ footer {
   .bradImg, .gtLogo, .redfinLogo, .salesforceLogo, .appleLogo, .d3Logo, .rpmLogo, .riskLogo, .mailchimpLogo {
       margin-top: 10px;
   }
+
+  /* This class is the parent of the side by side divs */
+  .content {
+    padding-top: 1%;
+    padding-left: 0%;
+    padding-right: 0%;
+  }
 }
 
 /* For mobile friendly version of main pages */
@@ -124,13 +131,6 @@ footer {
 
   html, body {
     padding-top: 25px; /* Because of fixed nav bar */
-  }
-
-  /* This class is the parent of the side by side divs */
-  .content {
-    padding-top: 1%;
-    padding-left: 0%;
-    padding-right: 0%;
   }
 
   footer { 
