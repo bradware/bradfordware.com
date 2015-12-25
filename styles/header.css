@@ -51,11 +51,24 @@
   color: #0066CC; /* rgb(19, 115, 229) */
 }
 
-/* For mobile friendly version of main pages */
-@media screen and (max-width: 767px) { /* 767 was chosen b/c of bootstrap */
+/* For small screen on laptop  */
+@media screen and (min-width: 450px) and (max-width: 767px) { 
   .title {
     font-size: 56px;
-    padding-bottom: 5px;
+    padding-bottom: 15px;
+  }
+
+  /* No padding on mobile b/c it's block */
+  .navbar li {
+    padding-left: 0px;
+  }
+}
+
+/* For mobile friendly version of main pages */
+@media screen and (max-width: 450px) { 
+  .title {
+    font-size: 52px;
+    padding-bottom: 0px;
   }
 
   /* No padding on mobile b/c it's block */

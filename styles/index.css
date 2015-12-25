@@ -17,19 +17,30 @@ html, body {
   box-shadow: 0px 0px 10px #c0c0c0;
 }
 
-/* Footer is wrapped closer on home page */
+/* Footer is wrapped closer on home page - % isn't used b/c it's wrapped near the photo */
 footer {
-   padding-top: 35px;
+  padding-top: 35px;
+}
+
+/* For small screen on desktop  */
+@media screen and (min-width: 450px) and (max-width: 767px) { /* For iPhone 6 and 6+ width */
+  html, body {
+    padding-top: 25px; /* Because of fixed nav bar */
+  }
+
+  footer {
+    padding-top: 25px; /* Same padding on mobile for footer for main */
+  }
 }
 
 /* For mobile friendly version of main pages */
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 450px) {
   html, body {
     padding-top: 20px; /* Because of fixed nav bar */
   }
 
   footer {
-    padding-top: 25px; /* Same padding on mobile for footer for main */
+    padding-top: 20px; /* Same padding on mobile for footer for main */
   }
 
 }
