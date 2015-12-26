@@ -13,7 +13,7 @@
 }
 
 .icon-padding {
-  padding-left: 75px;
+  padding-left: 50px;
 }
 
 .copyright {
@@ -27,14 +27,7 @@
 }
 
 /* For mobile friendly version of main pages */
-@media screen and (min-width: 350px) and (max-width: 450px) { /* For iPhone 6 and 6+ width */
-  .icon-padding {
-    padding-left: 50px;
-  }
-}
-
-/* For mobile friendly version of main pages */
-@media screen and (max-width: 350px) { /* For iPhone 4 and 5 width */
+@media screen and (max-width: 350px) { /* For iPhone 4 and 5 */
   .icon-padding {
     padding-left: 35px;
   }
