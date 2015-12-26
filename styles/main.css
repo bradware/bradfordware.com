@@ -12,9 +12,8 @@ html, body {
 }
 
 p  {
-  font-weight: 300;
-  font-size: 18px;
-  line-height: 1.75;
+  font-size: 16px;
+  line-height: 26px;
 }
 
 h3 a {
@@ -58,7 +57,7 @@ footer {
 
 .mailchimpLogo {
   /* Size of the image */
-  margin-top: 20px;
+  margin-top: 10px;
   width: 128px;
   height: 140px;
   margin-bottom: 10px;
@@ -82,7 +81,7 @@ footer {
 
 .appleLogo {
   /* Size of the image */
-  margin-top: 60px;
+  margin-top: 50px;
   width: 130px;
   height: 130px;
   margin-bottom: 10px;
@@ -121,8 +120,8 @@ footer {
   /* This class is the parent of the side by side divs */
   .content {
     padding-top: 1%;
-    padding-left: 0%;
-    padding-right: 0%;
+    padding-left: 1%;
+    padding-right: 1%;
   }
 }
 
@@ -131,6 +130,12 @@ footer {
 
   html, body {
     padding-top: 25px; /* Because of fixed nav bar */
+  }
+
+   /* This class is the parent of the side by side divs */
+  .content {
+    padding-left: 0%;
+    padding-right: 0%;
   }
 
   footer { 
