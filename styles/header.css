@@ -54,35 +54,35 @@
 }
 
 /* For small screen on laptop  */
-@media screen and (min-width: 450px) and (max-width: 767px) { 
+@media screen and (max-width: 767px) { 
+  /* Actually enlarge navbar elements on smaller screens */
+  .logo {
+    width: 32px;
+    height: 19px;
+  }
+
   .navbar {
     font-size: 16px;
   }
 
-  .title {
-    font-size: 54px;
-    padding-bottom: 15px;
-  }
-
-  /* No padding on mobile b/c it's block */
+  /* No left padding on mobile b/c it's centeredblock */
   .navbar li {
     padding-left: 0px;
   }
 }
 
+/* For small screen on laptop  */
+@media screen and (min-width: 450px) and (max-width: 767px) { 
+  .title {
+    font-size: 54px;
+    padding-bottom: 15px;
+  }
+}
+
 /* For mobile friendly version of main pages */
 @media screen and (max-width: 450px) { 
-  .navbar {
-    font-size: 16px;
-  }
-
   .title {
     font-size: 50px;
     padding-bottom: 0px;
-  }
-
-  /* No padding on mobile b/c it's block */
-  .navbar li {
-    padding-left: 0px;
   }
 }
