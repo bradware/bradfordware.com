@@ -38,7 +38,6 @@
 /* Removes border around navbar-button on mobile */
 .navbar .btn, .navbar navbar-collapse {
   /* Makes button and shadow appear in the middle of navbar */
-  margin-top: 10px;
   margin-right: 10px;
   border: 0;
 }
@@ -56,11 +55,7 @@
 /* For small screen on laptop  */
 @media screen and (max-width: 767px) { 
   /* Actually enlarge navbar elements on smaller screens */
-  .logo {
-    width: 33px;
-    height: 20px;
-  }
-
+  
   .navbar {
     font-size: 16px;
   }
