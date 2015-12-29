@@ -12,7 +12,7 @@
 }
 
 /* Padding between navbar menu options */
-.navbar li {
+.navbar-nav li {
   padding-left: 75px;
 }
 
@@ -55,7 +55,6 @@
 /* For small screen on laptop  */
 @media screen and (max-width: 767px) { 
   /* Actually enlarge navbar elements on smaller screens */
-  
   .navbar {
     font-size: 16px;
   }
