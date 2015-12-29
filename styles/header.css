@@ -8,7 +8,7 @@
 .logo {
   width: 30px;
   height: 18px;
-  margin-left: 5px;
+  margin-left: 3px;
 }
 
 /* Padding between navbar menu options */
@@ -39,6 +39,7 @@
 .navbar .btn, .navbar navbar-collapse {
   /* Makes button and shadow appear in the middle of navbar */
   margin-top: 10px;
+  margin-right: 10px;
   border: 0;
 }
 
