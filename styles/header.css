@@ -5,17 +5,6 @@
   padding-bottom: 20px;
 }
 
-.logo {
-  width: 30px;
-  height: 18px;
-  margin-left: 3px;
-}
-
-/* Padding between navbar menu options */
-.navbar-nav li {
-  padding-left: 75px;
-}
-
 .navbar {
   background: #FFFFFF; /* rgb(255, 255, 255) */
   font-weight: 600;
@@ -35,10 +24,26 @@
   opacity: 0.98;
 }
 
+.navbar-brand {
+  padding-left: 20px;
+  padding-right: 25px;
+}
+
+.logo {
+  width: 30px;
+  height: 18px;
+}
+
+/* Padding between navbar menu options */
+.navbar-nav li {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
 /* Removes border around navbar-button on mobile */
 .navbar .btn, .navbar navbar-collapse {
   /* Makes button and shadow appear in the middle of navbar */
-  margin-right: 10px;
+  margin-right: 12px;
   border: 0;
 }
 
