@@ -22,8 +22,8 @@ footer {
   padding-top: 35px;
 }
 
-/* For small screen on desktop  */
-@media screen and (min-width: 450px) and (max-width: 767px) { /* For iPhone 6 and 6+ width */
+/* For mobile friendly version of main pages */
+@media screen and (max-width: 767px) { 
   html, body {
     padding-top: 25px; /* Because of fixed nav bar */
   }
@@ -31,16 +31,4 @@ footer {
   footer {
     padding-top: 25px; /* Same padding on mobile for footer for main */
   }
-}
-
-/* For mobile friendly version of main pages */
-@media screen and (max-width: 450px) {
-  html, body {
-    padding-top: 20px; /* Because of fixed nav bar */
-  }
-
-  footer {
-    padding-top: 20px; /* Same padding on mobile for footer for main */
-  }
-
 }

@@ -39,7 +39,6 @@
 .navbar .btn, .navbar navbar-collapse {
   /* Makes button and shadow appear in the middle of navbar */
   margin-top: 10px;
-  margin-right: 10px;
   border: 0;
 }
 
@@ -83,6 +82,6 @@
 @media screen and (max-width: 450px) { 
   .title {
     font-size: 50px;
-    padding-bottom: 0px;
+    padding-bottom: 10px;
   }
 }
