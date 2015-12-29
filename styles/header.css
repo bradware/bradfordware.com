@@ -25,8 +25,8 @@
 }
 
 .navbar-brand {
-  padding-left: 20px;
-  padding-right: 25px;
+  padding-left: 25px;
+  padding-right: 30px;
 }
 
 .logo {
@@ -43,7 +43,6 @@
 /* Removes border around navbar-button on mobile */
 .navbar .btn, .navbar navbar-collapse {
   /* Makes button and shadow appear in the middle of navbar */
-  margin-right: 12px;
   border: 0;
 }
 
