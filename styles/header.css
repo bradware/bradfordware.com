@@ -49,7 +49,6 @@
 /* Removes border around navbar-button on mobile */
 .navbar .btn, .navbar navbar-collapse {
   /* Makes button and shadow appear in the middle of navbar */
-  margin-top: 10px;
   border: 0;
 }
 
