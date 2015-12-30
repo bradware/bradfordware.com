@@ -65,6 +65,10 @@
   color: #0066CC; /* rgb(0, 102, 204) */
 }
 
+.icon-bar {
+  background-color: #333333 !important;
+}
+
 /* 
   ============================================================================
   Code to transform the hamburger icon to X when clicked 
