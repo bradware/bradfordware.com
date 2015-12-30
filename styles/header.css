@@ -22,6 +22,12 @@
   
   /* Modern Browsers */
   opacity: 0.98;
+
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  -ms-box-shadow: none;
+  -o-box-shadow: none;
+  box-shadow: none;
 }
 
 .navbar-brand {
@@ -50,7 +56,7 @@
 .navbar .btn, .navbar navbar-collapse {
   /* Makes button and shadow appear in the middle of navbar */
   margin-top: 10px;
-  border: 0;
+  border: 0px;
 }
 
 /* Navbar text color */
