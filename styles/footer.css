@@ -13,8 +13,8 @@
 }
 
 .icon-padding {
-  padding-left: 25px;
-  padding-right: 25px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .copyright {
@@ -28,9 +28,21 @@
 }
 
 /* For mobile friendly version of main pages */
-@media screen and (max-width: 350px) { /* For iPhone 4 and 5 */
+@media screen and (min-width: 350px) and (max-width: 450px) { /* For iPhone 6 and 6+ */
   .icon-padding {
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 17.5px;
+    padding-right: 17.5px;
+  }
+}
+
+/* For mobile friendly version of main pages */
+@media screen and (max-width: 350px) { /* For iPhone 4 and 5 */
+  .iconDiv a {
+    font-size: 20px;
+  }
+
+  .icon-padding {
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }

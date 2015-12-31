@@ -1,12 +1,12 @@
 html, body {
   font-family: 'Open Sans', sans-serif;
-  padding-top: 35px; /* Because of fixed nav bar */
+  padding-top: 40px; /* Because of fixed nav bar */
   background-color: #FAFAFA; /* barely off-white */
 }
 
 .indexPhoto {
-  max-width: 435px;
-  max-height: 462px;
+  max-width: 475px;
+  max-height: 504px;
   
   width: 98%;
 
@@ -19,16 +19,16 @@ html, body {
 
 /* Footer is wrapped closer on home page - % isn't used b/c it's wrapped near the photo */
 footer {
-  padding-top: 35px;
+  padding-top: 40px;
 }
 
 /* For mobile friendly version of main pages */
 @media screen and (max-width: 767px) { 
   html, body {
-    padding-top: 25px; /* Because of fixed nav bar */
+    padding-top: 30px; /* Because of fixed nav bar */
   }
 
   footer {
-    padding-top: 25px; /* Same padding on mobile for footer for main */
+    padding-top: 30px; /* Same padding on mobile for footer for main */
   }
 }
