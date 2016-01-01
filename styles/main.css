@@ -122,8 +122,8 @@ h2 > a:hover {
 
   /* Because there is extra space in the image above the logo */
   .salesforceLogo {
-    margin-top: 0px;
-    margin-bottom: 0px;
+    margin-top: -10px;
+    margin-bottom: -20px;
   }
 }
 
