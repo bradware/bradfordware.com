@@ -116,7 +116,7 @@ h2 > a:hover {
 /* For small screen on desktop  */
 @media screen and (max-width: 767px) {
   .bradImg, .gtLogo, .redfinLogo, .appleLogo, .d3Logo, .rpmLogo, .riskLogo, .mailchimpLogo {
-      margin-top: 10px;
+    margin-top: 10px;
   }
 
   /* Because there is extra space in the image above the logo */
@@ -150,12 +150,5 @@ h2 > a:hover {
 @media screen and (max-width: 350px) { 
    h2, h2 > a {
     font-size: 24px;
-  }
-
-  /* This class is the parent of the side by side divs */
-  .content {
-    padding-top: 0%;
-    padding-left: 0%;
-    padding-right: 0%;
   }
 }
