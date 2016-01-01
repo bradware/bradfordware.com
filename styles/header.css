@@ -30,12 +30,15 @@
   box-shadow: none;
 }
 
+.navbar-brand {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
 .logo {
   width: 32px;
   height: 19px;
 }
-
-
 
 .navbar-nav, .nav-justified > li {
   float: none;
@@ -44,8 +47,8 @@
 /* Removes border around navbar-button on mobile */
 .navbar .btn, .navbar navbar-collapse {
   /* Makes button and shadow appear in the middle of navbar */
-  margin-top: 9px;
-  margin-right: 12px;
+  margin-top: 10px;
+  margin-right: 10px;
   border: 0px;
 }
 
