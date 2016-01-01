@@ -35,16 +35,10 @@
   height: 19px;
 }
 
-/* Padding between navbar menu options */
-.navbar-nav li {
-  padding-left: 20px;
-  padding-right: 20px;
-}
 
-/* Padding around Menu Items div */
-.padding {
-  padding-left: 25px;
-  padding-right: 25px;
+
+.navbar-nav, .nav-justified > li {
+  float: none;
 }
 
 /* Removes border around navbar-button on mobile */
@@ -184,10 +178,8 @@
     font-size: 16px;
   }
 
-  /* No left padding on mobile b/c it's centeredblock */
-  .navbar-nav li {
-    padding-left: 0px;
-    padding-right: 0px;
+  .nav-justified {
+    width: auto;
   }
 }
 
