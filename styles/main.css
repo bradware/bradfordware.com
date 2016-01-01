@@ -79,6 +79,7 @@ h2 > a:hover {
   margin-top: 40px;
   width: 155px;
   height: 155px;
+  margin-bottom: 10px;
 }
 
 .appleLogo {
@@ -115,8 +116,14 @@ h2 > a:hover {
 
 /* For small screen on desktop  */
 @media screen and (max-width: 767px) {
-  .bradImg, .gtLogo, .redfinLogo, .salesforceLogo, .appleLogo, .d3Logo, .rpmLogo, .riskLogo, .mailchimpLogo {
+  .bradImg, .gtLogo, .redfinLogo, .appleLogo, .d3Logo, .rpmLogo, .riskLogo, .mailchimpLogo {
       margin-top: 10px;
+  }
+
+  /* Because there is extra space in the image above the logo */
+  .salesforceLogo {
+    margin-top: 0px;
+    margin-bottom: 0px;
   }
 }
 
