@@ -172,7 +172,7 @@
 
 /* For small screen on laptop and hamburger icon header */
 @media screen and (max-width: 767px) { 
-  .navbar {
+  .navbar-default .navbar-nav>li>a {
     font-size: 16px;
   }
 
