@@ -9,39 +9,38 @@ html, body {
   padding-top: 2%;
   padding-left: 2%;
   padding-right: 2%;
+  padding-bottom: 5%;
 }
 
 p {
+  color: #333333; /* rgb(51, 51, 51) */
   font-size: 16px;
+  font-weight: 400;
   line-height: 26px;
-  font-weight: 400;
-  color: #333333; /* rgb(51, 51, 51) */
 }
 
-h2, h2 > a {
-  font-size: 26px;
-  color: #333333; /* rgb(51, 51, 51) */
-  font-weight: 400;
-}
-
-h2 > a:hover {
-  text-decoration: none;
-}
-
+/* Color for links */
 a, a:hover {
   color: #0066CC; /* rgb(0, 102, 204) */
 }
 
-footer {
-  padding-top: 7%;
+/* Header links remain dark unless hover */
+h2, h2 > a {
+  color: #333333; /* rgb(51, 51, 51) */
+  font-size: 26px;
+  font-weight: 400;
+}
+
+/* Header links have no underline on hover */
+h2 > a:hover {
+  text-decoration: none;
 }
 
 /* All of these are the images used in the various files */
-
 .bradImg {
-  margin-top: 22px;
-  width: 140px;
-  height: 140px;
+  margin-top: 40px;
+  width: 110px;
+  height: 110px;
   margin-bottom: 10px;
 
   -webkit-box-shadow: 0px 0px 10px #c0c0c0;
@@ -53,87 +52,79 @@ footer {
 
 .gtLogo {
   /* Size of the image */
-  margin-top: 10px;
-  width: 255px;
-  height: 100px;
+  margin-top: 25px;
+  width: 171px;
+  height: 75px;
   margin-bottom: 10px;
 }
 
 .mailchimpLogo {
   /* Size of the image */
-  margin-top: 30px;
-  width: 110px;
-  height: 120px;
+  margin-top: 45px;
+  width: 100px;
+  height: 110px;
   margin-bottom: 10px;
 }
 
 .redfinLogo {
   /* Size of the image */
-  margin-top: 50px;
-  width: 115px;
-  height: 115px;
+  margin-top: 60px;
+  width: 110px;
+  height: 110px;
   margin-bottom: 10px;
 }
 
 .salesforceLogo {
   /* Size of the image */
-  margin-top: 60px;
-  width: 235px;
-  height: 86px;
+  margin-top: 40px;
+  width: 155px;
+  height: 155px;
   margin-bottom: 10px;
 }
 
 .appleLogo {
   /* Size of the image */
-  margin-top: 50px;
-  width: 115px;
-  height: 115px;
+  margin-top: 70px;
+  width: 110px;
+  height: 110px;
   margin-bottom: 10px;
 }
 
 .d3Logo {
   /* Size of the image */
   margin-top: 50px;
-  width: 95px;
-  height: 90px;
+  width: 90px;
+  height: 85px;
   margin-bottom: 10px;
 }
 
 .rpmLogo {
   /* Size of the image */
-  margin-top: 40px;
-  width: 115px;
-  height: 115px;
+  margin-top: 60px;
+  width: 110px;
+  height: 110px;
   margin-bottom: 10px;
 }
 
 .riskLogo {
   /* Size of the image */
-  margin-top: 50px;
-  width: 165px;
+  margin-top: 60px;
+  width: 164px;
   height: 95px;
   margin-bottom: 10px;
 }
 
 /* For small screen on desktop  */
-@media screen and (max-width: 995px) {
+@media screen and (max-width: 767px) {
   .bradImg, .gtLogo, .redfinLogo, .salesforceLogo, .appleLogo, .d3Logo, .rpmLogo, .riskLogo, .mailchimpLogo {
       margin-top: 10px;
-  }
-
-  /* This class is the parent of the side by side divs */
-  .content {
-    padding-top: 1%;
-    padding-left: 1%;
-    padding-right: 1%;
   }
 }
 
 /* For mobile friendly version of main pages */
 @media screen and (max-width: 450px) {
-
   html, body {
-    padding-top: 25px; /* Because of fixed nav bar */
+    padding-top: 30px; /* Because of fixed nav bar */
   }
 
    /* This class is the parent of the side by side divs */
@@ -141,16 +132,12 @@ footer {
     padding-top: 0%;
     padding-left: 0%;
     padding-right: 0%;
+    padding-bottom: 10%;
   }
-
-  footer { 
-    padding-top: 15%; /* More bottom padding for mobile */
-  }
-
 }
 
-/* For mobile friendly version of main pages */
-@media screen and (max-width: 350px) { /* For iPhone 4 and 5 */
+/* For mobile friendly version of main pages -  iPhone 4 and 5 */
+@media screen and (max-width: 350px) { 
    h2, h2 > a {
     font-size: 24px;
   }
