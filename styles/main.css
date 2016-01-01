@@ -38,10 +38,9 @@ h2 > a:hover {
 
 /* All of these are the images used in the various files */
 .bradImg {
-  margin-top: 40px;
+  margin-top: 30px;
   width: 110px;
   height: 110px;
-  margin-bottom: 10px;
 
   -webkit-box-shadow: 0px 0px 10px #c0c0c0;
   -moz-box-shadow: 0px 0px 10px #c0c0c0;
@@ -52,7 +51,7 @@ h2 > a:hover {
 
 .gtLogo {
   /* Size of the image */
-  margin-top: 25px;
+  margin-top: 35px;
   width: 171px;
   height: 75px;
   margin-bottom: 10px;
@@ -77,8 +76,8 @@ h2 > a:hover {
 .salesforceLogo {
   /* Size of the image */
   margin-top: 40px;
-  width: 155px;
-  height: 155px;
+  width: 150px;
+  height: 150px;
   margin-bottom: 10px;
 }
 
@@ -122,20 +121,17 @@ h2 > a:hover {
 
   /* Because there is extra space in the image above the logo */
   .salesforceLogo {
-    margin-top: -10px;
+    margin-top: -5px;
     margin-bottom: -15px;
   }
 
   /* This class is the parent of the side by side divs */
   .content {
-    padding-top: 1%;
-    padding-left: 1%;
-    padding-right: 1%;
     padding-bottom: 10%;
   }
 }
 
-/* For mobile friendly version of main pages */
+/* For mobile friendly version of main pages - iPhone 6 and 6+ */
 @media screen and (max-width: 450px) {
   html, body {
     padding-top: 30px; /* Because of fixed nav bar */
@@ -143,9 +139,9 @@ h2 > a:hover {
 
   /* This class is the parent of the side by side divs */
   .content {
-    padding-top: 0%;
-    padding-left: 0%;
-    padding-right: 0%;
+    padding-top: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
     padding-bottom: 15%;  
   }
 }
@@ -154,5 +150,12 @@ h2 > a:hover {
 @media screen and (max-width: 350px) { 
    h2, h2 > a {
     font-size: 24px;
+  }
+
+  /* This class is the parent of the side by side divs */
+  .content {
+    padding-top: 0%;
+    padding-left: 0%;
+    padding-right: 0%;
   }
 }
