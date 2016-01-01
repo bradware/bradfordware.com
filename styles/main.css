@@ -151,4 +151,11 @@ h2 > a:hover {
    h2, h2 > a {
     font-size: 24px;
   }
+
+  /* This class is the parent of the side by side divs */
+  .content {
+    padding-top: 0%;
+    padding-left: 0%;
+    padding-right: 0%;
+  }
 }
