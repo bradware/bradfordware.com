@@ -140,6 +140,10 @@ h2 > a:hover {
   .salesforceLogo, .bradImg, .gtLogo {
     margin-top: 5px;
   }
+
+  .bradImg, .gtLogo {
+    margin-top: 10px;
+  }
 }
 
 /* For mobile friendly version of main pages - iPhone 6 and 6+ */
