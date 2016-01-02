@@ -27,12 +27,8 @@
   color: #0066CC; /* rgb(0, 102, 204) */
 }
 
-/* For massive Desktop screens */
-@media screen and (min-width: 1400px) { 
-  .div-padding {
-    padding-bottom: 10px;
-  }
-
+/* For normal - large Desktop screens */
+@media screen and (min-width: 1200px) { 
   .icon-padding {
     padding-left: 28px;
     padding-right: 28px;
@@ -40,10 +36,6 @@
 
   .iconDiv a {
     font-size: 22px;
-  }
-
-  .copyright {
-    font-size: 14px;
   }
 }
 
