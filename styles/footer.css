@@ -37,6 +37,10 @@
   .iconDiv a {
     font-size: 22px;
   }
+
+  .div-padding {
+    padding-bottom: 10px;
+  }
 }
 
 /* For mobile friendly version of main pages - iPhone 6 and 6+ */
