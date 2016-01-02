@@ -174,8 +174,8 @@
 /* For massive screen on desktop  */
 @media screen and (min-width: 1400px) {
   .navbar-brand {
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
   }
 }
 
