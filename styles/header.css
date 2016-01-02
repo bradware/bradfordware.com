@@ -43,7 +43,8 @@
 }
 
 /* Removes border around navbar-button on mobile */
-.navbar .btn, .navbar .navbar-collapse {
+/* DO NOT MESS WITH THE CLASS NAMING STRUCTURE */
+.navbar .btn, .navbar navbar-collapse {
   /* Makes button and shadow appear in the middle of navbar */
   margin-top: 10px;
   margin-right: 10px;
@@ -176,7 +177,6 @@
     font-size: 16px;
   }
 
-  /* For Nav header menu items to be centered on dropdown hamburger menu */
   .nav-justified {
     width: auto;
   }
@@ -196,11 +196,14 @@
   }
 
   .navbar-brand {
-    padding-left: 16px;
-    padding-right: 16px;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 
-  .navbar .btn, .navbar .navbar-collapse {
-    margin-right: 7px;
+  /* Removes border around navbar-button on mobile */
+  /* DO NOT MESS WITH THE CLASS NAMING STRUCTURE */
+  .navbar .btn, .navbar navbar-collapse {
+    /* Makes button and shadow appear in the middle of navbar */
+    margin-right: 5px;
   }
 }
