@@ -1,5 +1,11 @@
+footer {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
 .div-padding {
-  padding-bottom: 8px;
+  padding-top: 4px;
+  padding-bottom: 4px;
 }
 
 .iconDiv a {
@@ -36,10 +42,6 @@
 
   .iconDiv a {
     font-size: 22px;
-  }
-
-  .div-padding {
-    padding-bottom: 10px;
   }
 }
 

@@ -5,8 +5,8 @@ html, body {
 }
 
 .content {
-  padding-top: 15px; /* Because of h1 margin-bottom 10px */
-  padding-bottom: 35px;
+  padding-top: 10px; /* Because of h1 margin-bottom 10px */
+  padding-bottom: 10px;
 }
 
 .indexPhoto {
