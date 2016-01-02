@@ -30,8 +30,8 @@
 /* For massive Desktop screens */
 @media screen and (min-width: 1200px) { 
   .icon-padding {
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 28px;
+    padding-right: 28px;
   }
 
   .iconDiv a {
