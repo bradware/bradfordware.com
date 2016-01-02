@@ -139,9 +139,9 @@ h2 > a:hover {
 
   /* This class is the parent of the side by side divs */
   .content {
-    padding-top: 1%;
-    padding-left: 1%;
-    padding-right: 1%;
+    padding-top: 0%;
+    padding-left: 0%;
+    padding-right: 0%;
     padding-bottom: 15%;  
   }
 }
@@ -150,12 +150,5 @@ h2 > a:hover {
 @media screen and (max-width: 350px) { 
    h2, h2 > a {
     font-size: 24px;
-  }
-
-  /* This class is the parent of the side by side divs */
-  .content {
-    padding-top: 0%;
-    padding-left: 0%;
-    padding-right: 0%;
   }
 }

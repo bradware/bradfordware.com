@@ -43,7 +43,7 @@
 }
 
 /* Removes border around navbar-button on mobile */
-.navbar .btn, .navbar navbar-collapse {
+.navbar .btn, .navbar .navbar-collapse {
   /* Makes button and shadow appear in the middle of navbar */
   margin-top: 10px;
   margin-right: 10px;
@@ -176,6 +176,7 @@
     font-size: 16px;
   }
 
+  /* For Nav header menu items to be centered on dropdown hamburger menu */
   .nav-justified {
     width: auto;
   }
@@ -199,4 +200,7 @@
     padding-right: 17.5px;
   }
 
+  .navbar .btn, .navbar .navbar-collapse {
+    margin-right: 12px;
+  }
 }
