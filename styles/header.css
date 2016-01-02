@@ -196,11 +196,11 @@
   }
 
   .navbar-brand {
-    padding-left: 17px;
-    padding-right: 17px;
+    padding-left: 16px;
+    padding-right: 16px;
   }
 
   .navbar .btn, .navbar .navbar-collapse {
-    margin-right: 8px;
+    margin-right: 7px;
   }
 }
