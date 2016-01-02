@@ -133,8 +133,16 @@ h2 > a:hover {
 
 /* For massive screen on desktop  */
 @media screen and (min-width: 1700px) {
-  .bradImg, .gtLogo, .mailchimpLogo, .redfinLogo, .appleLogo, .d3Logo, .rpmLogo, .riskLogo {
-    margin-top: 40px;
+  .mailchimpLogo, .redfinLogo, .appleLogo, .d3Logo, .rpmLogo, .riskLogo {
+    margin-top: 35px;
+  }
+
+  .salesforceLogo {
+    margin-top: 5px;
+  }
+
+  .bradImg, .gtLogo {
+    margin-top: 5px;
   }
 }
 
