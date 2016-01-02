@@ -171,6 +171,14 @@
   ============================================================================
 */
 
+/* For massive screen on desktop  */
+@media screen and (min-width: 1400px) {
+  .navbar-brand {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
 /* For small screen on laptop and hamburger icon header */
 @media screen and (max-width: 767px) { 
   .navbar-default .navbar-nav>li>a {
