@@ -195,6 +195,7 @@
     font-size: 50px;
   }
 
+  /* Moves logo to the left to match padding on content text */
   .navbar-brand {
     padding-left: 15px;
     padding-right: 15px;
