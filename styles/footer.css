@@ -28,7 +28,7 @@
 }
 
 /* For massive Desktop screens */
-@media screen and (min-width: 1250px) { 
+@media screen and (min-width: 1400px) { 
   .div-padding {
     padding-bottom: 10px;
   }
