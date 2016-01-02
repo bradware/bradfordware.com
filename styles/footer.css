@@ -44,7 +44,7 @@
 }
 
 /* For mobile friendly version of main pages - iPhone 6 and 6+ */
-@media screen and (min-width: 350px) and (max-width: 450px) { 
+@media screen and (min-width: 375px) and (max-width: 450px) { 
   .icon-padding {
     padding-left: 20px;
     padding-right: 20px;
@@ -52,7 +52,7 @@
 }
 
 /* For mobile friendly version of main pages - iPhone 4 and 5 */
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 375px) {
   .icon-padding {
     padding-left: 15px;
     padding-right: 15px;
