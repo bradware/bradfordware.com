@@ -144,6 +144,11 @@ h2 > a:hover {
   .bradImg, .gtLogo {
     margin-top: 10px;
   }
+
+  /* This class is the parent of the side by side divs */
+  .content {
+    padding-bottom: 5%;
+  }
 }
 
 /* For mobile friendly version of main pages - iPhone 6 and 6+ */
