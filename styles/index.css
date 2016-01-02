@@ -25,6 +25,6 @@ html, body {
 /* For mobile friendly version of main pages */
 @media screen and (max-width: 767px) { 
   html, body {
-    padding-top: 25px; /* Because of fixed nav bar */
+    padding-top: 30px; /* Because of fixed nav bar */
   }
 }
