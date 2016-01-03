@@ -38,8 +38,8 @@
 }
 
 .logo {
-  width: 35px;
-  height: 21px;
+  width: 32px;
+  height: 19px;
 }
 
 /* Centers the header elements */
@@ -193,6 +193,11 @@
   .nav-justified {
     width: auto;
   }
+
+  .logo {
+    width: 35px;
+    height: 21px;
+  }
 }
 
 /* For small screen on laptop and hamburger icon header */
@@ -210,14 +215,14 @@
 
   /* Moves logo to the left to match padding on content text */
   .navbar-brand {
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 
   /* Removes border around navbar-button on mobile */
   /* DO NOT MESS WITH THE CLASS NAMING STRUCTURE */
   .navbar .btn, .navbar navbar-collapse {
     /* Makes button and shadow appear in the middle of navbar */
-    margin-right: 10px;
+    margin-right: 5px;
   }
 }
