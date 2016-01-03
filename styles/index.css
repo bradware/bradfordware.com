@@ -22,9 +22,26 @@ html, body {
   box-shadow: 0px 0px 10px #c0c0c0;
 }
 
+footer {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #FAFAFA; /* barely off-white */
+}
+
 /* For mobile friendly version of main pages */
 @media screen and (max-width: 767px) { 
   html, body {
     padding-top: 30px; /* Because of fixed nav bar */
+  }
+}
+
+/* For mobile friendly version of main pages */
+@media screen and (max-width: 450px) { 
+  html, body {
+    padding-top: 25px; /* Because of fixed nav bar */
+  }
+
+  .content {
+    padding-top: 5px; /* Because of h1 margin-bottom 10px */
   }
 }

@@ -1,6 +1,7 @@
 footer {
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  background-color: #EEEEEE;
 }
 
 .div-padding {
@@ -10,7 +11,7 @@ footer {
 
 .iconDiv a {
   color: #333333; /* rgb(51, 51, 51) */
-  font-size: 20px;
+  font-size: 22px;
   text-decoration: none;
 }
 
@@ -19,8 +20,8 @@ footer {
 }
 
 .icon-padding {
-  padding-left: 25px;
-  padding-right: 25px;
+  padding-left: 28px;
+  padding-right: 28px;
 }
 
 .copyright {
@@ -34,27 +35,27 @@ footer {
 }
 
 /* For massive Desktop screens */
-@media screen and (min-width: 1200px) { 
+@media screen and (max-width: 767px) { 
   .icon-padding {
-    padding-left: 28px;
-    padding-right: 28px;
+    padding-left: 25px;
+    padding-right: 25px;
   }
 
   .iconDiv a {
-    font-size: 22px;
+    font-size: 21px;
   }
 }
 
 /* For mobile friendly version of main pages - iPhone 6 and 6+ */
-@media screen and (min-width: 375px) and (max-width: 450px) { 
+@media screen and (min-width: 374px) and (max-width: 450px) { 
   .icon-padding {
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 18px;
+    padding-right: 18px;
   }
 }
 
 /* For mobile friendly version of main pages - iPhone 4 and 5 */
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 374px) {
   .icon-padding {
     padding-left: 15px;
     padding-right: 15px;
