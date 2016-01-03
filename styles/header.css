@@ -197,14 +197,14 @@
 
 /* For small screen on laptop and hamburger icon header */
 @media screen and (min-width: 450px) and (max-width: 767px) { 
-  .title {
-    font-size: 50px;
+  .title > a {
+    font-size: 52px;
   }
 }
 
 /* For mobile friendly version of main pages */
 @media screen and (max-width: 450px) { 
-  .title {
+  .title > a {
     font-size: 48px;
   }
 
