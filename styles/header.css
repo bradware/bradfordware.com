@@ -33,13 +33,13 @@
 }
 
 .navbar-brand {
-  padding-left: 25px;
-  padding-right: 25px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .logo {
-  width: 32px;
-  height: 19px;
+  width: 33px;
+  height: 20px;
 }
 
 /* Centers the header elements */
@@ -178,8 +178,8 @@
 /* For massive screen on desktop  */
 @media screen and (min-width: 1400px) {
   .navbar-brand {
-    padding-left: 50px;
-    padding-right: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
   }
 }
 
@@ -210,8 +210,8 @@
 
   /* Moves logo to the left to match padding on content text */
   .navbar-brand {
-    padding-left: 15px;
-    padding-right: 15px;
+    margin-left: 0px;
+    margin-right: 0px;
   }
 
   /* Removes border around navbar-button on mobile */
