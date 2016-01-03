@@ -198,14 +198,14 @@
 /* For small screen on laptop and hamburger icon header */
 @media screen and (min-width: 450px) and (max-width: 767px) { 
   .title > a {
-    font-size: 52px;
+    font-size: 55px;
   }
 }
 
 /* For mobile friendly version of main pages */
 @media screen and (max-width: 450px) { 
   .title > a {
-    font-size: 48px;
+    font-size: 50px;
   }
 
   /* Moves logo to the left to match padding on content text */
