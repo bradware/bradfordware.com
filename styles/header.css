@@ -56,14 +56,14 @@
 }
 
 /* Navbar text color */
-.navbar-default .navbar-nav>li>a {
+.navbar-default .navbar-nav > li > a {
   color: #333333; /* rgb(51, 51, 51) */
   font-size: 14px;
   font-weight: 600;
 }
 
 /* Change to blue for hover on navbar text */
-.navbar-default .navbar-nav>li>a:hover {
+.navbar-default .navbar-nav > li > a:hover {
   color: #0066CC; /* rgb(0, 102, 204) */
 }
 
@@ -176,16 +176,16 @@
 */
 
 /* For massive screen on desktop  */
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1500px) {
   .navbar-brand {
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
   }
 }
 
 /* For small screen on laptop and hamburger icon header */
 @media screen and (max-width: 767px) { 
-  .navbar-default .navbar-nav>li>a {
+  .navbar-default .navbar-nav > li > a {
     font-size: 16px;
   }
 
@@ -196,14 +196,30 @@
 }
 
 /* For small screen on laptop and hamburger icon header */
-@media screen and (min-width: 450px) and (max-width: 767px) { 
+@media screen and (min-width: 350px) and (max-width: 767px) { 
   .title > a {
     font-size: 55px;
   }
 }
 
+/* For iPhone 6 and 6+ */
+@media screen and (min-width: 350px) and (max-width: 450px) {
+  /* Moves logo to the left to match padding on content text */
+  .navbar-brand {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  /* Removes border around navbar-button on mobile */
+  /* DO NOT MESS WITH THE CLASS NAMING STRUCTURE */
+  .navbar .btn, .navbar navbar-collapse {
+    /* Makes button and shadow appear in the middle of navbar */
+    margin-right: 10px;
+  }
+}
+
 /* For mobile friendly version of main pages */
-@media screen and (max-width: 450px) { 
+@media screen and (max-width: 350px) { 
   .title > a {
     font-size: 50px;
   }

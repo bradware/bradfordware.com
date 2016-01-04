@@ -1,6 +1,6 @@
-html, body {
+body {
   font-family: 'Open Sans', sans-serif;
-  padding-top: 35px; /* Because of fixed nav bar */
+  padding-top: 75px; /* Because of fixed nav bar */
   background-color: #FAFAFA; /* barely off-white */
 }
 
@@ -9,7 +9,7 @@ html, body {
   padding-top: 2%;
   padding-left: 2%;
   padding-right: 2%;
-  padding-bottom: 7%;
+  padding-bottom: 5%;
 }
 
 p {
@@ -38,9 +38,10 @@ h2 > a:hover {
 
 /* All of these are the images used in the various files */
 .bradImg {
-  margin-top: 30px;
-  width: 110px;
-  height: 110px;
+  margin-top: 40px;
+  margin-bottom: 10px;
+  width: 120px;
+  height: 120px;
 
   -webkit-box-shadow: 0px 0px 10px #c0c0c0;
   -moz-box-shadow: 0px 0px 10px #c0c0c0;
@@ -113,6 +114,32 @@ h2 > a:hover {
   margin-bottom: 10px;
 }
 
+footer {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #EEEEEE;
+}
+
+/* For massive screen on desktop  */
+@media screen and (min-width: 1600px) {
+  .mailchimpLogo, .redfinLogo, .appleLogo, .d3Logo, .rpmLogo, .riskLogo {
+    margin-top: 35px;
+  }
+
+  .salesforceLogo, .bradImg, .gtLogo {
+    margin-top: 5px;
+  }
+
+  .bradImg, .gtLogo {
+    margin-top: 10px;
+  }
+
+  /* This class is the parent of the side by side divs */
+  .content {
+    padding-bottom: 5%;
+  }
+}
+
 /* For small screen on desktop  */
 @media screen and (max-width: 767px) {
   .bradImg, .gtLogo, .mailchimpLogo, .redfinLogo, .appleLogo, .d3Logo, .rpmLogo, .riskLogo {
@@ -131,44 +158,34 @@ h2 > a:hover {
   }
 }
 
-/* For massive screen on desktop  */
-@media screen and (min-width: 1700px) {
-  .mailchimpLogo, .redfinLogo, .appleLogo, .d3Logo, .rpmLogo, .riskLogo {
-    margin-top: 35px;
-  }
-
-  .salesforceLogo, .bradImg, .gtLogo {
-    margin-top: 5px;
-  }
-
-  .bradImg, .gtLogo {
-    margin-top: 10px;
-  }
-
-  /* This class is the parent of the side by side divs */
-  .content {
-    padding-bottom: 3%;
-  }
-}
-
-/* For mobile friendly version of main pages - iPhone 6 and 6+ */
-@media screen and (max-width: 450px) {
-  html, body {
-    padding-top: 30px; /* Because of fixed nav bar */
+/* For iPhone 6 and 6+ */
+@media screen and (min-width: 350px) and (max-width: 450px) {
+  body {
+    padding-top: 60px; /* Because of fixed nav bar */
   }
 
   /* This class is the parent of the side by side divs */
   .content {
     padding-top: 0%;
-    padding-left: 0%;
-    padding-right: 0%;
-    padding-bottom: 15%;  
+    padding-left: 5px; /* To match logo and hamburger icon */
+    padding-right: 5px; /* To match logo and hamburger icon */
   }
 }
 
-/* For mobile friendly version of main pages -  iPhone 4 and 5 */
-@media screen and (max-width: 375px) { 
-   h2, h2 > a {
+/* iPhone 4 and 5 */
+@media screen and (max-width: 350px) {
+  body {
+    padding-top: 50px; /* Because of fixed nav bar */
+  }
+
+  /* This class is the parent of the side by side divs */
+  .content {
+    padding-top: 0%;
+    padding-left: 0%; /* To match logo and hamburger icon */
+    padding-right: 0%; /* To match logo and hamburger icon */
+  }
+
+  h2, h2 > a {
     font-size: 24px;
   }
 }

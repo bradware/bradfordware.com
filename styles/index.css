@@ -1,6 +1,6 @@
-html, body {
+body {
   font-family: 'Open Sans', sans-serif;
-  padding-top: 50px; /* Because of fixed nav bar */
+  padding-top: 100px; /* Because of fixed nav bar */
   background-color: #FAFAFA; /* barely off-white */
 }
 
@@ -11,7 +11,7 @@ html, body {
 
 .indexPhoto {
   max-width: 475px;
-  max-height: 504px;
+  max-height: 505px;
   
   width: 98%;
 
@@ -25,20 +25,20 @@ html, body {
 footer {
   padding-top: 15px;
   padding-bottom: 15px;
-  background-color: #FAFAFA; /* barely off-white */
+  background-color: #FAFAFA; /* same as background, off-white */
 }
 
 /* For mobile friendly version of main pages */
 @media screen and (max-width: 767px) { 
-  html, body {
-    padding-top: 30px; /* Because of fixed nav bar */
+  body {
+    padding-top: 60px; /* Because of fixed nav bar */
   }
 }
 
 /* For mobile friendly version of main pages */
 @media screen and (max-width: 450px) { 
-  html, body {
-    padding-top: 25px; /* Because of fixed nav bar */
+  body {
+    padding-top: 50px; /* Because of fixed nav bar */
   }
 
   .content {
