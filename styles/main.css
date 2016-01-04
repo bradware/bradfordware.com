@@ -1,7 +1,7 @@
 body {
   font-family: 'Open Sans', sans-serif;
   padding-top: 75px; /* Because of fixed nav bar */
-  background-color: #F9F9F9; /* barely off-white */
+  background-color: #FAFAFA; /* barely off-white */
 }
 
 /* This class is the parent of the side by side divs */
