@@ -5,7 +5,7 @@ body {
 }
 
 .content {
-  padding-top: 10px; /* Because of h1 margin-bottom 10px */
+  padding-top: 15px; /* Because of h1 margin-bottom 10px */
   padding-bottom: 15px;
 }
 
