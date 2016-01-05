@@ -45,6 +45,12 @@
   .iconDiv a {
     font-size: 21px;
   }
+
+  /* So that icon div can fit in one line */
+  .panel-footer {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
 }
 
 /* For mobile friendly version of main pages - iPhone 6 and 6+ */
