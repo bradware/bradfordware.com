@@ -76,7 +76,7 @@ h2 > a:hover {
 
 .salesforceLogo {
   /* Size of the image */
-  margin-top: 25px;
+  margin-top: 30px;
   width: 150px;
   height: 150px;
   margin-bottom: 10px;
@@ -115,7 +115,7 @@ h2 > a:hover {
 }
 
 /* For massive screen on desktop  */
-@media screen and (min-width: 1500px) {
+@media screen and (min-width: 1400px) {
   .mailchimpLogo, .redfinLogo, .appleLogo, .d3Logo, .rpmLogo, .riskLogo {
     margin-top: 35px;
   }

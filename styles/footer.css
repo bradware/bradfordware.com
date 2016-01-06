@@ -29,7 +29,7 @@
 }
 
 /* For massive screen on desktop  */
-@media screen and (min-width: 1500px) {
+@media screen and (min-width: 1400px) {
   .copyright {
     font-size: 13px;
   }
