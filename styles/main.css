@@ -117,15 +117,15 @@ h2 > a:hover {
 /* For massive screen on desktop  */
 @media screen and (min-width: 1400px) {
   .mailchimpLogo, .redfinLogo, .appleLogo, .d3Logo, .rpmLogo, .riskLogo {
-    margin-top: 35px;
+    margin-top: 40px;
   }
 
-  .salesforceLogo, .bradImg, .gtLogo {
-    margin-top: 5px;
+  .salesforceLogo {
+    margin-top: 10px;
   }
 
   .bradImg, .gtLogo {
-    margin-top: 10px;
+    margin-top: 20px;
   }
 
   /* This class is the parent of the side by side divs */
