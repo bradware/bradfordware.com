@@ -2,7 +2,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   padding-top: 60px; /* Because of fixed nav bar */
   background-color: #FAFAFA; /* barely off-white */
-  height: 100%;
+  min-height: 100%;
 }
 
 /* This class is the parent of the side by side divs */
@@ -11,6 +11,10 @@ body {
   padding-left: 2%;
   padding-right: 2%;
   padding-bottom: 5%;
+}
+
+footer {
+  position: relative;
 }
 
 p {
