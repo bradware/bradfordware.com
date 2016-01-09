@@ -1,8 +1,8 @@
 html, body {
   font-family: 'Open Sans', sans-serif;
-  padding-top: 90px; /* Because of fixed nav bar */
+  padding-top: 4%; /* Because of fixed nav bar */
   background-color: #FAFAFA; /* barely off-white */
-  min-height: 100%;
+  height: 100%;
 }
 
 .content {

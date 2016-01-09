@@ -1,8 +1,13 @@
 html, body {
   font-family: 'Open Sans', sans-serif;
-  padding-top: 60px; /* Because of fixed nav bar */
+  padding-top: 3%; /* Because of fixed nav bar */
   background-color: #FAFAFA; /* barely off-white */
+  height: 100%;
+}
+
+.wrapper {
   min-height: 100%;
+  position: relative;
 }
 
 /* This class is the parent of the side by side divs */
