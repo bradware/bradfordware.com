@@ -90,7 +90,7 @@ h2 > a:hover {
 
 .appleLogo {
   /* Size of the image */
-  margin-top: 50px;
+  margin-top: 60px;
   width: 110px;
   height: 110px;
   margin-bottom: 10px;
@@ -122,12 +122,8 @@ h2 > a:hover {
 
 /* For massive screen on desktop  */
 @media screen and (min-width: 1400px) {
-  .mailchimpLogo, .redfinLogo, .appleLogo, .d3Logo, .rpmLogo, .riskLogo, .bradImg, .salesforceLogo {
-    margin-top: 45px;
-  }
-
-  .gtLogo {
-    margin-top: 25px;
+  .mailchimpLogo, .redfinLogo, .appleLogo, .d3Logo, .rpmLogo, .riskLogo, .bradImg, .gtLogo, .salesforceLogo {
+    margin-top: 30px;
   }
 
   /* This class is the parent of the side by side divs */
