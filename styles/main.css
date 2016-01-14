@@ -125,11 +125,6 @@ h2 > a:hover {
   .mailchimpLogo, .redfinLogo, .appleLogo, .d3Logo, .rpmLogo, .riskLogo, .bradImg, .gtLogo, .salesforceLogo {
     margin-top: 35px;
   }
-
-  /* This class is the parent of the side by side divs */
-  .content {
-    padding-bottom: 10%;
-  }
 }
 
 /* For small screen on desktop  */
