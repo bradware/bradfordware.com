@@ -120,6 +120,14 @@ h2 > a:hover {
   margin-bottom: 10px;
 }
 
+/* For massive screen on desktop - keeps footer at bottom of really tall screens  */
+@media screen and (min-height: 1000px) {
+  /* This class is the parent of the side by side divs */
+  .content {
+    padding-bottom: 8%;
+  }
+}
+
 /* For massive screen on desktop  */
 @media screen and (min-width: 1500px) {
   .mailchimpLogo, .redfinLogo, .appleLogo, .d3Logo, .rpmLogo, .riskLogo, .bradImg, .gtLogo, .salesforceLogo {
