@@ -5,6 +5,11 @@ html, body {
   height: 100%;
 }
 
+.title {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 .content {
   padding-top: 15px; /* Because of h1 margin-bottom 10px */
   padding-bottom: 15px;
