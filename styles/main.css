@@ -141,6 +141,11 @@ h2 > a:hover {
   .content {
     padding-bottom: 10%;
   }
+  
+  /* Line height is adjusted for mobile screens */
+  p {
+    line-height: 22px;
+  }
 }
 
 /* For iPhone 6 and 6+ */
