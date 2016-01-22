@@ -141,11 +141,6 @@ h2 > a:hover {
   .content {
     padding-bottom: 10%;
   }
-  
-  /* Line height is adjusted for mobile screens */
-  p {
-    line-height: 22px;
-  }
 }
 
 /* For iPhone 6 and 6+ */
@@ -159,6 +154,11 @@ h2 > a:hover {
     padding-top: 0%;
     padding-left: 5px; /* To match logo and hamburger icon */
     padding-right: 5px; /* To match logo and hamburger icon */
+  }
+  
+  p {
+    font-size: 15px;
+    line-height: 22px;
   }
 }
 
@@ -177,5 +177,10 @@ h2 > a:hover {
 
   h2, h2 > a {
     font-size: 24px;
+  }
+  
+  p {
+    font-size: 14px;
+    line-height: 22px;
   }
 }
