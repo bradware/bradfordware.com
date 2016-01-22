@@ -200,10 +200,7 @@
   .title > a {
     font-size: 55px;
   }
-}
-
-/* For iPhone 6 and 6+ */
-@media screen and (min-width: 350px) and (max-width: 450px) {
+  
   /* Moves logo to the left to match padding on content text */
   .navbar-brand {
     margin-left: 5px;
