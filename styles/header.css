@@ -33,8 +33,8 @@
 }
 
 .navbar-brand {
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
 .logo {
@@ -50,8 +50,6 @@
 /* Removes border around navbar-button on mobile */
 /* DO NOT MESS WITH THE CLASS NAMING STRUCTURE */
 .navbar .btn, .navbar navbar-collapse {
-  /* Makes button and shadow appear in the middle of navbar */
-  margin-top: 10px;
   border: 0px;
 }
 
@@ -200,10 +198,7 @@
   .title > a {
     font-size: 55px;
   }
-}
-
-/* For iPhone 6 and 6+ */
-@media screen and (min-width: 350px) and (max-width: 450px) {
+  
   /* Moves logo to the left to match padding on content text */
   .navbar-brand {
     margin-left: 5px;
