@@ -33,13 +33,13 @@
 }
 
 .navbar-brand {
-  margin-left: 15px;
-  margin-right: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .logo {
-  width: 33px;
-  height: 20px;
+  width: 35px;
+  height: 21px;
 }
 
 /* Centers the header elements */
@@ -183,6 +183,11 @@
 
 /* For small screen on laptop and hamburger icon header */
 @media screen and (max-width: 767px) { 
+  .logo {
+    width: 33px;
+    height: 20px;
+  }
+
   .navbar-default .navbar-nav > li > a {
     font-size: 16px;
   }
