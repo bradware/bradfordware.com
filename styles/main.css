@@ -66,9 +66,17 @@ h2 > a:hover {
 
 .mailchimp-logo {
   /* Size of the image */
-  margin-top: 45px;
+  margin-top: 50px;
   width: 100px;
   height: 110px;
+  margin-bottom: 10px;
+}
+
+.fb-logo {
+  /* Size of the image */
+  margin-top: 45px;
+  width: 100px;
+  height: 100px;
   margin-bottom: 10px;
 }
 
@@ -104,11 +112,19 @@ h2 > a:hover {
   margin-bottom: 10px;
 }
 
-.d3-logo {
+.voting-viz-logo {
   /* Size of the image */
-  margin-top: 55px;
-  width: 90px;
-  height: 85px;
+  margin-top: 50px;
+  width: 120px;
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+.kafka-logo {
+  /* Size of the image */
+  margin-top: 70px;
+  width: 133px;
+  height: 70px;
   margin-bottom: 10px;
 }
 
@@ -130,7 +146,7 @@ h2 > a:hover {
 
 /* For massive screen on desktop  */
 @media screen and (min-width: 1500px) {
-  .mailchimp-logo, .redfin-logo, .apple-logo, .scrubs-logo, .d3-logo, .rpm-logo, .risk-logo, .bradImg, .gt-logo, .pardot-logo {
+  .mailchimp-logo, .fb-logo, .redfin-logo, .apple-logo, .scrubs-logo, .voting-viz-logo, .kafka-logo, .rpm-logo, .risk-logo, .bradImg, .gt-logo, .pardot-logo {
     margin-top: 35px;
   }
 }
@@ -141,7 +157,7 @@ h2 > a:hover {
     padding-top: 5%; /* Because of fixed nav bar */
   }
 
-  .brad-img, .gt-logo, .mailchimp-logo, .redfin-logo, .apple-logo,  .scrubs-logo, .d3-logo, .rpm-logo, .risk-logo, .pardot-logo {
+  .brad-img, .gt-logo, .mailchimp-logo, .fb-logo, .redfin-logo, .apple-logo,  .scrubs-logo, .voting-viz-logo, .kafka-logo, .rpm-logo, .risk-logo, .pardot-logo {
     margin-top: 10px;
   }
 
