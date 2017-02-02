@@ -120,6 +120,14 @@ h2 > a:hover {
   margin-bottom: 10px;
 }
 
+.food-finder-logo {
+  /* Size of the image */
+  margin-top: 75px;
+  width: 120px;
+  height: 76px;
+  margin-bottom: 10px;
+}
+
 .kafka-logo {
   /* Size of the image */
   margin-top: 70px;
@@ -146,7 +154,7 @@ h2 > a:hover {
 
 /* For massive screen on desktop  */
 @media screen and (min-width: 1500px) {
-  .mailchimp-logo, .fb-logo, .redfin-logo, .apple-logo, .scrubs-logo, .voting-viz-logo, .kafka-logo, .rpm-logo, .risk-logo, .bradImg, .gt-logo, .pardot-logo {
+  .mailchimp-logo, .fb-logo, .redfin-logo, .apple-logo, .scrubs-logo, .voting-viz-logo, .food-finder-logo, .kafka-logo, .rpm-logo, .risk-logo, .bradImg, .gt-logo, .pardot-logo {
     margin-top: 35px;
   }
 }
@@ -157,7 +165,7 @@ h2 > a:hover {
     padding-top: 5%; /* Because of fixed nav bar */
   }
 
-  .brad-img, .gt-logo, .mailchimp-logo, .fb-logo, .redfin-logo, .apple-logo,  .scrubs-logo, .voting-viz-logo, .kafka-logo, .rpm-logo, .risk-logo, .pardot-logo {
+  .brad-img, .gt-logo, .mailchimp-logo, .fb-logo, .redfin-logo, .apple-logo,  .scrubs-logo, .voting-viz-logo, .food-finder-logo, .kafka-logo, .rpm-logo, .risk-logo, .pardot-logo {
     margin-top: 10px;
   }
 
