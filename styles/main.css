@@ -7,13 +7,40 @@ html {
   transform: translateY(-40%);
   -ms-transform: translateX(-50%);
   transform: translateX(-50%);
-}
 
-html, body, main {
   background-color: white;
   color: black;
 }
 
+#title {
+  font-family: 'Sacramento', cursive;
+  margin: 0;
+}
+
 .center {
   text-align: center;
+}
+
+@media screen and (min-width: 2001px) {
+  #title {
+    font-size: 100px;
+  }
+}
+
+@media (max-width: 2000px) and (min-width: 801px) {
+  #title {
+    font-size: 80px;
+  }
+}
+
+@media (max-width: 800px) and (min-width: 601px) {
+  #title {
+    font-size: 60px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #title {
+    font-size: 40px;
+  }
 }

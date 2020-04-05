@@ -10,20 +10,20 @@ $(document).ready(function() {
 	// const content = $(`#content`);
 	// content.css('marginTop', -content.height() + 'px');
 	
-	const elements = $('body,html,main');
-	$(elements).click(function() {
-    toggleColorScheme(elements);
+	const page = $('html');
+	$(page).click(function() {
+    toggleColorScheme(page);
 	});
 });
 
-function toggleColorScheme(elements) {
+function toggleColorScheme(page) {
 	IS_DARK_MODE = !IS_DARK_MODE;
-	
+
 	if (IS_DARK_MODE) {
-		elements.css(COLOR, WHITE);
-  	elements.css(BACKGROUND_COLOR, BLACK);
+		page.css(COLOR, WHITE);
+  	page.css(BACKGROUND_COLOR, BLACK);
   } else {
-  	elements.css(COLOR, BLACK);
-  	elements.css(BACKGROUND_COLOR, WHITE);
+  	page.css(COLOR, BLACK);
+  	page.css(BACKGROUND_COLOR, WHITE);
   }
 }
