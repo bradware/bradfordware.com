@@ -9,6 +9,11 @@ html {
   transform: translateX(-50%);
 }
 
+html, body, main {
+  background-color: white;
+  color: black;
+}
+
 .center {
   text-align: center;
 }
