@@ -3,27 +3,32 @@ const COLOR = `color`;
 const BACKGROUND_COLOR = `background-color`;
 const WHITE = 'white';
 const BLACK = 'black';
+const ICON_TAG_NAME = 'I';
 
-var IS_DARK_MODE = false;
+let IS_DARK_MODE = false;
 
 $(document).ready(function() {
 	// const content = $(`#content`);
 	// content.css('marginTop', -content.height() + 'px');
 	
-	const page = $('html');
-	$(page).click(function() {
-    toggleColorScheme(page);
+	const html = $('html');
+	$(html).click(function(event) {
+    if (event.target.tagName === ICON_TAG_NAME) {
+    	return;
+    }
+    
+    toggleColorScheme(html);
 	});
 });
 
-function toggleColorScheme(page) {
+function toggleColorScheme(html) {
 	IS_DARK_MODE = !IS_DARK_MODE;
 
 	if (IS_DARK_MODE) {
-		page.css(COLOR, WHITE);
-  	page.css(BACKGROUND_COLOR, BLACK);
+		html.css(COLOR, WHITE);
+  	html.css(BACKGROUND_COLOR, BLACK);
   } else {
-  	page.css(COLOR, BLACK);
-  	page.css(BACKGROUND_COLOR, WHITE);
+  	html.css(COLOR, BLACK);
+  	html.css(BACKGROUND_COLOR, WHITE);
   }
 }
