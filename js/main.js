@@ -14,11 +14,9 @@ $(document).ready(function() {
 	const html = $('html');
 	$(html).click(function(event) {
 		// Don't change the color scheme if clicking on an icon
-    if (event.target.tagName === 'I') {
-    	return;
+    if (event.target.tagName !== 'I') {
+    	toggleColorScheme(html);;
     }
-    
-    toggleColorScheme(html);
 	});
 });
 

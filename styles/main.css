@@ -7,7 +7,7 @@ html {
   -ms-transform: translateX(-50%);
   transform: translateX(-50%);
 
-  /* Default color scheme is LIGHT_MODE. JS handles toggling between them */
+  /* Default color scheme is LIGHT_MODE. JS handles toggling between both themes */
   background-color: white;
   color: black;
 }
@@ -22,9 +22,6 @@ html {
   padding: 0;
   text-overflow: ellipsis;
   white-space: nowrap;
-}
-#title:hover {
-  color: silver;
 }
 
 #grid {
@@ -43,6 +40,15 @@ a {
 a:hover { 
   color: silver;
 }
+
+/* Need to get sticky footer working */
+/*footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}*/
 
 /* Responsive */
 
