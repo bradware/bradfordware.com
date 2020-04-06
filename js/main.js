@@ -8,8 +8,8 @@ const ICON_TAG_NAME = 'I';
 let IS_DARK_MODE = false;
 
 $(document).ready(function() {
-	// const content = $(`#content`);
-	// content.css('marginTop', -content.height() + 'px');
+	const content = $(`main`);
+	content.css('marginTop', -content.height() + 'px');
 	
 	const html = $('html');
 	$(html).click(function(event) {
