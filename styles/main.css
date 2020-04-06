@@ -53,33 +53,44 @@ a:hover {
   
   .icon {
     font-size: 33px;
-    margin-bottom: 11px;
+    margin-bottom: 16.5px;
   }
 }
 
-@media (max-width: 2000px) and (min-width: 801px) {
+@media (max-width: 2000px) and (min-width: 701px) {
   #title {
     font-size: 80px;
   }
   
   .icon {
-    font-size: 27px;
-    margin-bottom: 9px;
+    font-size: 26.66px;
+    margin-bottom: 13.33px;
   }
 }
 
-@media (max-width: 800px) and (min-width: 601px) {
+/*@media (max-width: 1000px) and (min-width: 701px) {
+  #title {
+    font-size: 70px;
+  }
+  
+  .icon {
+    font-size: 23.33px;
+    margin-bottom: 7.77px;
+  }
+}*/
+
+@media (max-width: 700px) {
   #title {
     font-size: 60px;
   }
 
   .icon {
-    font-size: 26.66px;
-    margin-bottom: 8.88px;
+    font-size: 20px;
+    margin-bottom: 10px;
   }
 }
 
-@media screen and (max-width: 600px) {
+/*@media screen and (max-width: 600px) {
   #title {
     font-size: 40px;
   }
@@ -88,4 +99,4 @@ a:hover {
     font-size: 13.33px;
     margin-bottom: 8.88px;
   }
-}
+}*/
