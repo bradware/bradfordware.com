@@ -1,0 +1,77 @@
+html {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+
+  /* Default color scheme is LIGHT_MODE. JS handles toggling between both themes */
+  background-color: white;
+  color: black;
+}
+
+.center {
+  text-align: center;
+}
+
+#title {
+  font-family: 'Sacramento', cursive;
+  margin: 0;
+  padding: 0;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+#grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.icon {
+  flex: 0 0 33%;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+a:hover { 
+  color: silver;
+}
+
+/* Responsive */
+
+@media screen and (min-width: 2001px) {
+  #title {
+    font-size: 100px;
+  }
+  
+  .icon {
+    font-size: 33px;
+    margin-bottom: 16.5px;
+  }
+}
+
+@media (max-width: 2000px) and (min-width: 701px) {
+  #title {
+    font-size: 80px;
+  }
+  
+  .icon {
+    font-size: 26.66px;
+    margin-bottom: 13.33px;
+  }
+}
+
+@media (max-width: 700px) {
+  #title {
+    font-size: 60px;
+  }
+
+  .icon {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+}
