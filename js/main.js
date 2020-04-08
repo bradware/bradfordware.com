@@ -15,9 +15,9 @@ $(document).ready(function() {
 	const html = $('html');
 	$(html).click(function(event) {
 		// Don't change the color scheme if clicking on an icon
-    if (event.target.tagName !== 'I') {
-    	toggleColorScheme(html);
-    }
+		if (event.target.tagName !== 'I') {
+			toggleColorScheme(html);
+		}
 	});
 });
 
@@ -26,9 +26,9 @@ function toggleColorScheme(html) {
 
 	if (IS_DARK_MODE) {
 		html.css(COLOR, WHITE);
-  	html.css(BACKGROUND_COLOR, BLACK);
-  } else {
-  	html.css(COLOR, BLACK);
-  	html.css(BACKGROUND_COLOR, WHITE);
-  }
+		html.css(BACKGROUND_COLOR, BLACK);
+	} else {
+		html.css(COLOR, BLACK);
+		html.css(BACKGROUND_COLOR, WHITE);
+	}
 }
