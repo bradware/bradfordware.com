@@ -9,7 +9,7 @@ let IS_DARK_MODE = false;
 
 $(document).ready(function() {
 	const main = $(`main`);
-	main.css('marginTop', -main.height() + 'px');
+	main.css('marginTop', -(main.height() / 2) + 'px');
 	
 	const html = $('html');
 	$(html).click(function(event) {
