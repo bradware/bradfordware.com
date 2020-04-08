@@ -3,13 +3,14 @@ const COLOR = `color`;
 const BACKGROUND_COLOR = `background-color`;
 const WHITE = 'white';
 const BLACK = 'black';
+const HEIGHT_OFFSET = 0.75;
 
 // File Scoped
 let IS_DARK_MODE = false;
 
 $(document).ready(function() {
 	const main = $(`main`);
-	main.css('marginTop', -(main.height() / 2) + 'px');
+	main.css('marginTop', -(main.height() * HEIGHT_OFFSET) + 'px');
 	
 	const html = $('html');
 	$(html).click(function(event) {
