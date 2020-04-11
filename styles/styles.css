@@ -41,11 +41,22 @@ a:hover {
   color: silver;
 }
 
+#copyright {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
 /* Responsive */
 
 @media screen and (min-width: 2001px) {
   #title {
     font-size: 100px;
+  }
+
+  #copyright {
+    font-size: 20px;
   }
   
   .icon {
@@ -58,6 +69,10 @@ a:hover {
   #title {
     font-size: 80px;
   }
+
+  #copyright {
+    font-size: 16px;
+  }
   
   .icon {
     font-size: 26.66px;
@@ -68,6 +83,10 @@ a:hover {
 @media (max-width: 700px) {
   #title {
     font-size: 60px;
+  }
+
+  #copyright {
+    font-size: 12px;
   }
 
   .icon {
