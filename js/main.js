@@ -6,7 +6,7 @@ const BLACK = 'black';
 const HEIGHT_OFFSET = 0.75;
 
 // File Scoped
-let IS_DARK_MODE = false;
+let IS_DARK_MODE = true;
 
 $(document).ready(function() {
 	const main = $(`main`);
