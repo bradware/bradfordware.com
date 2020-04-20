@@ -6,19 +6,19 @@ const BLACK = 'black';
 const HEIGHT_OFFSET = 0.75;
 
 // File Scoped
-let IS_DARK_MODE = true;
+let IS_DARK_MODE = false;
 
 $(document).ready(function() {
 	const main = $(`main`);
 	main.css('marginTop', -(main.height() * HEIGHT_OFFSET) + 'px');
 	
-	const html = $('html');
-	$(html).click(function(event) {
-		// Don't change the color scheme if clicking on an icon
-		if (event.target.tagName !== 'I') {
-			toggleColorScheme(html);
-		}
-	});
+	// const html = $('html');
+	// $(html).click(function(event) {
+	// 	// Don't change the color scheme if clicking on an icon
+	// 	if (event.target.tagName !== 'I') {
+	// 		toggleColorScheme(html);
+	// 	}
+	// });
 });
 
 function toggleColorScheme(html) {
