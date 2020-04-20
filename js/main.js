@@ -6,29 +6,29 @@ const BLACK = 'black';
 const HEIGHT_OFFSET = 0.75;
 
 // File Scoped
-let IS_DARK_MODE = false;
+let IS_DARK_MODE = true;
 
 $(document).ready(function() {
-	const main = $(`main`);
-	main.css('marginTop', -(main.height() * HEIGHT_OFFSET) + 'px');
+	const html = $('html');
+	const body = $(`body`);
 	
-	// const html = $('html');
-	// $(html).click(function(event) {
-	// 	// Don't change the color scheme if clicking on an icon
-	// 	if (event.target.tagName !== 'I') {
-	// 		toggleColorScheme(html);
-	// 	}
-	// });
+	body.css('marginTop', -(body.height() * HEIGHT_OFFSET) + 'px');
+	html.click(function(event) {
+		// Don't change the color scheme if clicking on an icon
+		if (event.target.tagName !== 'I') {
+			toggleColorScheme(body);
+		}
+	});
 });
 
-function toggleColorScheme(html) {
+function toggleColorScheme(domElement) {
 	IS_DARK_MODE = !IS_DARK_MODE;
 
 	if (IS_DARK_MODE) {
-		html.css(COLOR, WHITE);
-		html.css(BACKGROUND_COLOR, BLACK);
+		domElement.css(COLOR, WHITE);
+		domElement.css(BACKGROUND_COLOR, BLACK);
 	} else {
-		html.css(COLOR, BLACK);
-		html.css(BACKGROUND_COLOR, WHITE);
+		domElement.css(COLOR, BLACK);
+		domElement.css(BACKGROUND_COLOR, WHITE);
 	}
 }

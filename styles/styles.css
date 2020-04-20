@@ -1,4 +1,5 @@
-html {
+body {
+  /* Positions the content to the center of the page horizontally and vertically */
   position: absolute;
   top: 50%;
   left: 50%;
@@ -7,9 +8,11 @@ html {
   -ms-transform: translateX(-50%);
   transform: translateX(-50%);
 
-  /* Default color scheme is LIGHT_MODE. JS handles toggling between both themes */
-  background-color: white;
-  color: black;
+  /* Default color scheme is DARK_MODE. JS handles toggling between both themes */
+  background-color: black;
+  color: white;
+  margin: 0;
+  padding: 0;
 }
 
 .center {
@@ -48,7 +51,7 @@ a:hover {
   white-space: nowrap;
 }
 
-/* Responsive */
+/* Responsive design */
 
 @media screen and (min-width: 2001px) {
   #title {
