@@ -1,21 +1,25 @@
 // Constants
-const COLOR = `color`;
-const BACKGROUND_COLOR = `background-color`;
+const HTML = 'html';
+const BODY = 'body';
+const COLOR = 'color';
+const BACKGROUND_COLOR = 'background-color';
 const WHITE = 'white';
 const BLACK = 'black';
+const MARGIN_TOP = 'marginTop';
+const PX = 'px';
+const ICON = 'I';
 const HEIGHT_OFFSET = 0.75;
 
-// File Scoped
 let IS_DARK_MODE = true;
 
 $(document).ready(function() {
-	const html = $('html');
-	const body = $(`body`);
+	const html = $(HTML);
+	const body = $(BODY);
 	
-	body.css('marginTop', -(body.height() * HEIGHT_OFFSET) + 'px');
+	body.css(MARGIN_TOP, -(body.height() * HEIGHT_OFFSET) + PX);
 	html.click(function(event) {
 		// Don't change the color scheme if clicking on an icon
-		if (event.target.tagName !== 'I') {
+		if (event.target.tagName !== ICON) {
 			toggleColorScheme(body);
 		}
 	});
