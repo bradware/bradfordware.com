@@ -8,7 +8,7 @@ body {
   -ms-transform: translateX(-50%);
   transform: translateX(-50%);
 
-  /* Default color scheme is DARK_MODE. JS handles toggling between both themes */
+  /* Default color scheme is DARK_MODE. JS handles toggling between themes */
   background-color: black;
   color: white;
   margin: 0;
@@ -20,6 +20,7 @@ body {
 }
 
 #content {
+  /* JS will show page content afer loading animation is finished */
   display: none;
 }
 
@@ -66,7 +67,7 @@ a:hover {
 }
 
 #loading > div {
-  /* Default color scheme is DARK_MODE. JS handles toggling between both themes */
+  /* Default color scheme is DARK_MODE. JS handles toggling between themes */
   background-color: white;
   height: 100%;
   width: 6px;
